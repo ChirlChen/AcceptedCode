@@ -6,14 +6,14 @@
 >>> | | 文件名 | 提交者 |
 >>> |---|:-------:|:-------:| 	
 >>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |								
->>>  |[1.h](https://github.com/CheilQuan/AcceptedCode/LeetCode/1.h)  | Chirl、 |	
->>>  |[2.h](https://github.com/CheilQuan/AcceptedCode/LeetCode/1.h)  | Chirl、 |			
+>>>  |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)  | Chirl、 |	
+>>>  |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)  | Chirl、 |			
 >>>……
 >	
 >> `NowCoder`  //牛客网
 >>> | | 文件名 | 提交者 |
 >>> |---|:-------:|:-------:| 	
->>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/NowCoder/main.cpp)|  |								
+>>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/main.cpp)|  |								
 >>>  |[1.h]()  | Chirl、 |	
 >>>  |[2.h]()  | Chirl、 |				
 >
