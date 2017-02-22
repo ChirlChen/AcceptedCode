@@ -56,7 +56,10 @@
 				//算法代码
 				……
 
-				static void test(){//测试代码……}
+				static void test()
+				{
+					//测试代码……
+				}
 			}
 	    }
 	```
