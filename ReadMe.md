@@ -4,8 +4,8 @@
 > `AcceptedCode`
 >>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
 >>>  //添加题目解法后，请在对应的提交者栏加入自己的ID<br>
->>> | | 文件名 | 提交者 | <br>
->>> |---|:-------:|:-------:|<br>
+>>> | | 文件名 | 提交者 |
+>>> |---|:-------:|:-------:| 	
 >>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |						
 >>>  |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)  | Chirl、 |	
 >>>  |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)  | Chirl、 |			
