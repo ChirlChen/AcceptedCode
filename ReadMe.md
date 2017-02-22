@@ -5,15 +5,15 @@
 >>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
 >>> | | 文件名 | 提交者 |
 >>> |---|:-------:|:-------:| 	
->>>  |[main.cpp](AcceptedCode/LeetCode/main.cpp)|  |								
->>>  |[1.h](AcceptedCode/LeetCode/1.h)  | Chirl、 |	
->>>  |[2.h]()  | Chirl、 |			
+>>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |								
+>>>  |[1.h](https://github.com/CheilQuan/AcceptedCode/LeetCode/1.h)  | Chirl、 |	
+>>>  |[2.h](https://github.com/CheilQuan/AcceptedCode/LeetCode/1.h)  | Chirl、 |			
 >>>……
 >	
 >> `NowCoder`  //牛客网
->>> | 文件名 | 提交者 |
->>> |:-------:|:-------:| 	
->>>  |[main.cpp]()|  |								
+>>> | | 文件名 | 提交者 |
+>>> |---|:-------:|:-------:| 	
+>>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/NowCoder/main.cpp)|  |								
 >>>  |[1.h]()  | Chirl、 |	
 >>>  |[2.h]()  | Chirl、 |				
 >
