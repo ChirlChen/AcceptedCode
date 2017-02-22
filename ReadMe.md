@@ -49,19 +49,19 @@
 		eg.<br>
 	``` C++
 	  //1.h
-	   namespace Chirl
-	    {
-			class Solution_1
-			{
-				//算法代码
-				……
+	namespace Chirl
+	{
+	class Solution_1
+	{
+		//算法代码
+		……
 
-				static void test()
-				{
-					//测试代码……
-				}
-			}
-	    }
+		static void test()
+		{
+			//测试代码……
+		}
+	}
+	}
 	```
 
 	5、main中调用对应的算法：<br>
@@ -69,10 +69,10 @@
 		eg. 调用Chirl的第一题算法：<br>
 	``` C++
 	//main.cpp中
-	  #include "1.h"
-	  int main(int argc, char **argv)
-	  {
+	#include "1.h"
+	int main(int argc, char **argv)
+	{
 		Chirl::Solution_1::test();
 		return 0;
-	  }
+	}
 	```
