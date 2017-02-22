@@ -31,7 +31,7 @@
 	<br>
 	3、编写Solution规则:<br>
         	（1）以自己的名字定义namespace，在namespace中编写对应的Solution类，并且Solution后跟上题目编号；<br>
-	 	eg. Chirl编写LeetCode OJ 平台第一题 <br>
+	 	eg. Chirl编写LeetCode OJ 平台第一题 
 	    ``` C++
 		//1.h 
 	    namespace Chirl
