@@ -20,7 +20,7 @@ namespace Chirl
                 return nullptr ==l1 ? l2  : l1;
             }
 
-            int carryBit = 0; //需进位的值;;;
+            int carryBit = 0; //脨猫陆酶脦禄碌脛脰碌;;;
             ListNode *result  = new ListNode(0);
             ListNode *preNode = result; 
             while ((l1 != nullptr && l2 != nullptr) || carryBit == 1)
@@ -75,7 +75,7 @@ namespace Chirl
             return 0;
         }
     };
-}
+}//namespace Chirl
 
 
 #endif
