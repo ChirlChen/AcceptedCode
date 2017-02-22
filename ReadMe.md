@@ -30,23 +30,23 @@
 		eg. LeetCode OJ 平台第一题 —— 则创建名为 1.h 的头文件；<br>
 	<br>
 	3、编写Solution规则:<br>
-        	（1）以自己的名字定义namespace，在namespace中编写对应的Solution类，并且Solution后跟上题目编号；<br>
-	 	eg. Chirl编写LeetCode OJ 平台第一题 
-	    ``` C++
-		//1.h 
-	    namespace Chirl
-	    {
-			class Solution_1
-			{
-				//算法代码
-				……
-			}
-	    }
-		``` 
+		（1）以自己的名字定义namespace，在namespace中编写对应的Solution类，并且Solution后跟上题目编号；<br>
+		eg. Chirl编写LeetCode OJ 平台第一题<br> 
+	``` C++
+	//1.h 
+	namespace Chirl
+	{
+		class Solution_1
+		{
+			//算法代码
+			……
+		}
+	}
+	``` 
 	 
 	4、关于测试代码：<br>
 		也放在自己的名字空间的类中，以静态函数方式存在，并命名为 test()<br>
-	eg.<br>
+		eg.<br>
 	``` C++
 	  //1.h
 	   namespace Chirl
