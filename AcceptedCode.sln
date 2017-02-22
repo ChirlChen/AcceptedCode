@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCode", "LeetCode\LeetCode.vcxproj", "{D28406B4-D8AE-4474-893B-D68663497F46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NowCoder", "NowCoder\NowCoder.vcxproj", "{F6682995-AEDE-46BC-B2D0-F47C95A81A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28406B4-D8AE-4474-893B-D68663497F46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D28406B4-D8AE-4474-893B-D68663497F46}.Debug|Win32.Build.0 = Debug|Win32
+		{D28406B4-D8AE-4474-893B-D68663497F46}.Release|Win32.ActiveCfg = Release|Win32
+		{D28406B4-D8AE-4474-893B-D68663497F46}.Release|Win32.Build.0 = Release|Win32
+		{F6682995-AEDE-46BC-B2D0-F47C95A81A3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6682995-AEDE-46BC-B2D0-F47C95A81A3D}.Debug|Win32.Build.0 = Debug|Win32
+		{F6682995-AEDE-46BC-B2D0-F47C95A81A3D}.Release|Win32.ActiveCfg = Release|Win32
+		{F6682995-AEDE-46BC-B2D0-F47C95A81A3D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
