@@ -4,6 +4,6 @@
 int main(int argc, char **argv)
 {
     Chirl::Solution_2::test();
-
+    Chirl::Solution_1::test();
     return 0;
 }
