@@ -90,6 +90,7 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+!*.sln
 
 # Guidance Automation Toolkit
 *.gpState
@@ -183,6 +184,7 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
+<<<<<<< HEAD
 
 #############
 ## Python
@@ -214,3 +216,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+=======
+# ignore clang-format 文件
+.clang-format
+>>>>>>> ddbbbd4d99c6cb2767caad6a3fb4084b45f41555
