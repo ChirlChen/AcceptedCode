@@ -1,0 +1,27 @@
+#ifndef _441_H_
+#define _441_H_
+#include <iostream>
+using namespace std;
+namespace Sansan
+{
+	class Solution_1
+	{
+	public:
+		int arrangeCoins(int n) 
+		{
+			int res=0;
+			while(n>res)
+			{
+				res++;
+				n-=res;
+			}
+			return res;
+		}
+		static void test()
+		{
+			Solution_1 test;
+			printf("%d\n",test.arrangeCoins(8));
+		}
+	};
+}
+#endif
