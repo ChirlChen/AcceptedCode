@@ -17,7 +17,7 @@ namespace Sansan
 			if(!child || !cookies)
 				return 0;
 			sort(g.begin(),g.end());
-			sort(s.begin(),s.end());
+			sort(s.begin(),s.end());//使用其他方法排序效率将会提高到96%			
 			int i=0,j=0;
 			while(j<cookies)
 			{
