@@ -8,6 +8,7 @@
 >>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |
 >>> |[1.Two Sum](https://oj.leetcode.com/problems/two-sum/)|[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)          | Chirl、NanerLee |
 >>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)          | Chirl、 |
+>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/434.h)| Sansan |
 >>>|[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/441.h)   | Sansan |
 >>>| [455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/455.h)| Sansan|
 >>>...
