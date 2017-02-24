@@ -4,7 +4,7 @@
 using namespace std;
 namespace Sansan
 {
-	class Solution_1
+	class Solution_441
 	{
 	public:
 		int arrangeCoins(int n) 
@@ -19,7 +19,7 @@ namespace Sansan
 		}
 		static void test()
 		{
-			Solution_1 test;
+			Solution_441 test;
 			printf("%d\n",test.arrangeCoins(8));
 		}
 	};
