@@ -7,7 +7,7 @@
 using namespace std;
 namespace Sansan
 {
-	class Solution_1
+	class Solution_455
 	{
 	public:
 		int findContentChildren(vector<int>& g, vector<int>& s) 
@@ -34,7 +34,7 @@ namespace Sansan
 		}
 		static void test()
 		{
-			Solution_1 test;
+			Solution_455 test;
 			vector<int>g;
 			g.push_back(1);
 			g.push_back(2);
