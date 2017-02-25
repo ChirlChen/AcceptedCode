@@ -4,7 +4,7 @@
 > `AcceptedCode`
 >>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
 >>> | 题目 | 文件名 | 提交者 |
->>> |:---|:-------:|:-------:|
+>>> |:---|:-------|:-------|
 >>> | |[main.cpp](./LeetCode/main.cpp)|  |
 >>> |[1.Two Sum](https://oj.leetcode.com/problems/two-sum/)|[1.h](./LeetCode/1.h)          | Chirl、NanerLee |
 >>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](./LeetCode/2.h)          | Chirl、 |
