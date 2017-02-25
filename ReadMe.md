@@ -4,21 +4,23 @@
 > `AcceptedCode`
 >>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
 >>> | 题目 | 文件名 | 提交者 |
->>> |:---:|:-------:|:-------:|
->>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |
->>> |[1.Two Sum](https://oj.leetcode.com/problems/two-sum/)|[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)          | Chirl、NanerLee |
->>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)          | Chirl、 |
->> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/434.h)| Sansan |
->>>|[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/441.h)   | Sansan |
->>>| [455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/455.h)| Sansan|
+>>> |:---|:-------:|:-------:|
+>>> | |[main.cpp](./LeetCode/main.cpp)|  |
+>>> |[1.Two Sum](https://oj.leetcode.com/problems/two-sum/)|[1.h](./LeetCode/1.h)          | Chirl、NanerLee |
+>>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](./LeetCode/2.h)          | Chirl、 |
+>>> |[30.Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[30.h](./LeetCode/30.h)| NanerLee |
+>>> |[31.Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [31.h](./LeetCode/31.h)| NanerLee |
+>>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan |
+>>>|[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
+>>>| [455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
 >>>...
 >
 >> `NowCoder`  //牛客网
 >>> | | 文件名 | 提交者 |
 >>> |---|:-------:|:-------:|
->>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/main.cpp)|  |
->>> | |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/1.h)  | Chirl、 |
->>> | |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/2.h)  | Chirl、 |
+>>> | |[main.cpp](./NowCoder/main.cpp)|  |
+>>> | |[1.h](./NowCoder/1.h)  | Chirl、 |
+>>> | |[2.h](./NowCoder/2.h)  | Chirl、 |
 >
 >> ……
 
