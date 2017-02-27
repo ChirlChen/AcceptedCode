@@ -15,7 +15,8 @@
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
->>> ...
+>>> |[525. Contiguous Array](https://leetcode.com/problems/contiguous-array/?tab=Description)|[525.h](./LeetCode/525.h)| Sansan| 
+>>>...
 >
 >> `NowCoder`  //牛客网
 >>> `CodingInerviews` //剑指offer
