@@ -20,7 +20,7 @@ namespace Chirl
                 return nullptr ==l1 ? l2  : l1;
             }
 
-            int carryBit = 0; //Ðè½øÎ»µÄÖµ;;;
+            int carryBit = 0; 
             ListNode *result  = new ListNode(0);
             ListNode *preNode = result; 
             while ((l1 != nullptr && l2 != nullptr) || carryBit == 1)

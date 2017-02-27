@@ -1,6 +1,6 @@
 ###在线测评Accepted代码管理项目###
 * **项目地址：** https://github.com/CheilQuan/AcceptedCode
-* **项目目录树**：（`修改对应源文件后，请同时更新目录树` | `添加题目解法后，请在对应的提交者栏加入自己的ID` | `更新请以题目序号保持递增`）
+* **项目目录树：**（`修改对应源文件后，请同时更新目录树` | `添加题目解法后，请在对应的提交者栏加入自己的ID` | `更新请以题目序号保持递增`）
 > `AcceptedCode`
 >>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名；
 >>> | 题目 | 文件名 | 提交者 |
@@ -17,17 +17,23 @@
 >
 >> `NowCoder`  //牛客网，题号按提交顺序依次递增；
 >>> |题目 | 文件名 | 提交者 |
->>> |:---:|:-------:|:-------:|
+>>> |:---|:-------|:-------|
 >>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/main.cpp)|  |
 >>> |[1.矩阵查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[1.h](./NowCoder/1.h)  | Chirl、 |
 >>> |[2.替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[2.h](./NowCoder/2.h)  | Chirl、 |
 >>> |[3.逆序打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[3.h](./NowCoder/3.h)  | Chirl、 |
 >>> |[4.重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[4.h](./NowCoder/4.h)  | Chirl、 |
+>>> |[5.用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&tqId=11158&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[5.h](./NowCoder/5.h)  | Chirl、 |
+>>> |[6.旋转数组的最小数字](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?tpId=13&tqId=11159&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[6.h](./NowCoder/6.h)  | Chirl、 |
+>>> |[7.斐波那契数列](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3?tpId=13&tqId=11160&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[7.h](./NowCoder/7.h)  | Chirl、 |
+>>> |[8.跳台阶](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=13&tqId=11161&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[8.h](./NowCoder/8.h)  | Chirl、 |
+>>> |[9.变态跳台阶](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?tpId=13&tqId=11162&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[9.h](./NowCoder/9.h)  | Chirl、 |
+>>> |[10.矩形覆盖](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&tqId=11163&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[10.h](./NowCoder/10.h)  | Chirl、 |
 >
 >> ……
 
 
-* **项目维护规则**：<br>
+* **项目维护规则：**<br>
 	1、添加新的OJ平台规则:<br>
 		创建对应平台名的文件夹，并将该OJ平台下自己提交的各题Accepted代码放于文件夹下；<br>
 		eg. LeetCode OJ 平台 —— 则创建名为LeetCode的文件夹用于放代码；<br>

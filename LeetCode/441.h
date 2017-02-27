@@ -19,8 +19,8 @@ namespace Sansan
 		}
 		static void test()
 		{
-			Solution_441 test;
-			printf("%d\n",test.arrangeCoins(8));
+			Solution_441 su;
+			printf("%d\n",su.arrangeCoins(8));
 		}
 	};
 }

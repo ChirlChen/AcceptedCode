@@ -68,6 +68,13 @@
     <ClCompile Include="2.h" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="30.h" />
+    <ClInclude Include="31.h" />
+    <ClInclude Include="434.h" />
+    <ClInclude Include="441.h" />
+    <ClInclude Include="455.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
