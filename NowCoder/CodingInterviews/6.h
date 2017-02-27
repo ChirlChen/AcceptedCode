@@ -1,16 +1,16 @@
 /**************************************************
-	Description :
-	Creator	  	: Chirl
-	EditDate	  : 2017/02/27
-				      _	
-	           /  \               
-	          /|oo \              
-	         (_|  /_)             
-	           `@/  \    _        
-	           |     \   \\       
-	            \||   \   ))      
-	            |||\ /  \//       
-	          _//|| _\   /          
+  Description :
+  Editor      : Chirl
+  EditDate    : 2017/02/27
+              _ 
+             /  \               
+            /|oo \              
+           (_|  /_)             
+             `@/  \    _        
+             |     \   \\       
+              \||   \   ))      
+              |||\ /  \//       
+            _//|| _\   /          
      ______(_/(_|(____/_________ 
 **************************************************/
 #ifndef _6_H_
@@ -21,9 +21,9 @@
 using namespace std;
 namespace Chirl
 {
-	class Solution_6
+    class Solution_6
     {
-	public:
+    public:
         int minNumberInRotateArray(vector<int> rotateArray) 
         {
             if (rotateArray.empty()) 
@@ -45,13 +45,13 @@ namespace Chirl
         static void test()
         {
             int tmp[] = {3,4,5,1,2};
-			vector<int> rotateArray(tmp, tmp+sizeof(tmp)/sizeof(int));
+            vector<int> rotateArray(tmp, tmp+sizeof(tmp)/sizeof(int));
 
             Solution_6 su;
-			su.minNumberInRotateArray(rotateArray);
+            su.minNumberInRotateArray(rotateArray);
         }
     };
-	
+
 }
 
 

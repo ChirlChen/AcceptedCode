@@ -1,17 +1,17 @@
 /**************************************************
-	Description :
-	Creator	  	: Chirl
-	EditDate	  : 2017/02/27
-				        _	
-	             /  \               
-	            /|oo \              
-	           (_|  /_)             
-	             `@/  \    _        
-	             |     \   \\       
-	              \||   \   ))      
-	              |||\ /  \//       
-	            _//|| _\   /          
-     _______(_/(_|(____/_________ 
+  Description :
+  Editor      : Chirl
+  EditDate    : 2017/02/27
+              _ 
+             /  \               
+            /|oo \              
+           (_|  /_)             
+             `@/  \    _        
+             |     \   \\       
+              \||   \   ))      
+              |||\ /  \//       
+            _//|| _\   /          
+     ______(_/(_|(____/_________ 
 **************************************************/
 #ifndef _10_H_
 #define _10_H_
@@ -20,7 +20,7 @@
 
 namespace Chirl
 {
-	class Solution_10
+    class Solution_10
     {
     public:
         int rectCover(int number) {
@@ -60,7 +60,7 @@ namespace Chirl
             return res;
         }
     };
-	
+
 }
 
 

@@ -1,16 +1,16 @@
 /**************************************************
-	Description :
-	Editor	  	: Chirl
-	EditDate	  : 2017/02/27
-				      _	
-	           /  \               
-	          /|oo \              
-	         (_|  /_)             
-	           `@/  \    _        
-	           |     \   \\       
-	            \||   \   ))      
-	            |||\ /  \//       
-	          _//|| _\   /          
+  Description :
+  Editor      : Chirl
+  EditDate    : 2017/02/27
+              _ 
+             /  \               
+            /|oo \              
+           (_|  /_)             
+             `@/  \    _        
+             |     \   \\       
+              \||   \   ))      
+              |||\ /  \//       
+            _//|| _\   /          
      ______(_/(_|(____/_________ 
 **************************************************/
 
@@ -23,10 +23,10 @@ using namespace std;
 
 //Definition for binary tree
 struct TreeNode {
-int val;
-     TreeNode *left;
-     TreeNode *right;
-     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
 namespace Chirl
@@ -34,10 +34,10 @@ namespace Chirl
     class Solution_4 {
     public:
         struct TreeNode* reConstructBinaryTree(const vector<int> &pre,const vector<int> &in) {
-            // 		if (pre.size() != in.size())
-            // 		{
-            // 			return NULL;
-            // 		}
+            //     if (pre.size() != in.size())
+            //     {
+            //       return NULL;
+            //     }
             if (in.empty())
             {
                 return NULL;
@@ -50,7 +50,7 @@ namespace Chirl
             {
                 rootNode->left = reConstructBinaryTree(vector<int>(pre.begin() + 1, pre.begin() + (parentIdx + 1)), 
                     vector<int>(in.begin(), in.begin() + parentIdx)
-                    );	
+                    );  
             }
             else 
                 rootNode->left = NULL;

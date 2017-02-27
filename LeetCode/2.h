@@ -16,11 +16,11 @@ namespace Chirl
     class Solution_2 
     {  
     public:
-    ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
+        ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
         {
             if (nullptr == l1 || nullptr == l2)
             {
-            return nullptr == l1 ? l2 : l1;
+                return nullptr == l1 ? l2 : l1;
             }
 
             int carryBit = 0; //进位标记;
@@ -28,8 +28,8 @@ namespace Chirl
             ListNode *preNode = result; 
             while ((l1 != nullptr && l2 != nullptr) || carryBit == 1)
             {
-            int sum = (l1 != nullptr ? l1->val : 0) +
-                      (l2 != nullptr ? l2->val : 0) + carryBit;
+                int sum = (l1 != nullptr ? l1->val : 0) +
+                    (l2 != nullptr ? l2->val : 0) + carryBit;
                 carryBit = sum / 10;
 
                 preNode->next = new ListNode(sum % 10);

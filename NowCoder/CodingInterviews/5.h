@@ -1,16 +1,16 @@
 /**************************************************
-	Description :
-	Editor	  	: Chirl
-	EditDate	  : 2017/02/27
-				      _	
-	           /  \               
-	          /|oo \              
-	         (_|  /_)             
-	           `@/  \    _        
-	           |     \   \\       
-	            \||   \   ))      
-	            |||\ /  \//       
-	          _//|| _\   /          
+  Description :
+  Editor      : Chirl
+  EditDate    : 2017/02/27
+              _ 
+             /  \               
+            /|oo \              
+           (_|  /_)             
+             `@/  \    _        
+             |     \   \\       
+              \||   \   ))      
+              |||\ /  \//       
+            _//|| _\   /          
      ______(_/(_|(____/_________ 
 **************************************************/
 #ifndef _5_H_
@@ -22,7 +22,7 @@ using namespace std;
 
 namespace Chirl
 {
-	class Solution_5
+    class Solution_5
     {
     public:
         void push(int node) {
@@ -41,7 +41,7 @@ namespace Chirl
 
             return headNode;
         }
-        
+
         static void test()
         {
             Solution_5 su;
@@ -52,14 +52,14 @@ namespace Chirl
             su.pop();
             su.pop();
             su.pop();
-                
+
         }
 
     private:
         stack<int> stack1;
         stack<int> stack2;
     };
-	
+
 }
 
 

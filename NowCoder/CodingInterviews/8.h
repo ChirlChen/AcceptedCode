@@ -1,16 +1,16 @@
 /**************************************************
-	Description :
-	Creator	  	: Chirl
-	EditDate	  : 2017/02/27
-				      _	
-	           /  \               
-	          /|oo \              
-	         (_|  /_)             
-	           `@/  \    _        
-	           |     \   \\       
-	            \||   \   ))      
-	            |||\ /  \//       
-	          _//|| _\   /          
+  Description :
+  Editor      : Chirl
+  EditDate    : 2017/02/27
+              _ 
+             /  \               
+            /|oo \              
+           (_|  /_)             
+             `@/  \    _        
+             |     \   \\       
+              \||   \   ))      
+              |||\ /  \//       
+            _//|| _\   /          
      ______(_/(_|(____/_________ 
 **************************************************/
 #ifndef _8_H_
@@ -20,9 +20,9 @@
 
 namespace Chirl
 {
-	class Solution_8
+    class Solution_8
     {
-	public:
+    public:
         Solution_8() : m_iMethodCnt(nullptr){}
         int jumpFloor(int number) 
         {
@@ -59,7 +59,7 @@ namespace Chirl
     private:
         int *m_iMethodCnt;   
     };
-	
+
 }
 
 
