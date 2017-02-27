@@ -10,6 +10,7 @@
 >>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](./LeetCode/2.h)          | Chirl、 |
 >>> |[30.Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[30.h](./LeetCode/30.h)| NanerLee |
 >>> |[31.Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [31.h](./LeetCode/31.h)| NanerLee |
+>>> |[32.Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/?tab=Description)| [32.h](./LeetCode/32.h)| NanerLee |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
