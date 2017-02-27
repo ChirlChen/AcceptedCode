@@ -1,23 +1,28 @@
 ###在线测评Accepted代码管理项目###
-
+* **项目地址：** https://github.com/CheilQuan/AcceptedCode
 * **项目目录树**：（`修改对应源文件后，请同时更新目录树` | `添加题目解法后，请在对应的提交者栏加入自己的ID` | `更新请以题目序号保持递增`）
 > `AcceptedCode`
->>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
+>>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名；
 >>> | 题目 | 文件名 | 提交者 |
->>> |:---:|:-------:|:-------:|
->>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |
->>> |[1.Two Sum](https://oj.leetcode.com/problems/two-sum/)|[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)          | Chirl、NanerLee |
->>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)          | Chirl、 |
->>>……
+>>> |:---|:-------|:-------|
+>>> | |[main.cpp](./LeetCode/main.cpp)|  |
+>>> |[1.Two Sum](https://oj.leetcode.com/problems/two-sum/)|[1.h](./LeetCode/1.h)          | Chirl、NanerLee |
+>>> |[2.Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)|[2.h](./LeetCode/2.h)          | Chirl、 |
+>>> |[30.Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[30.h](./LeetCode/30.h)| NanerLee |
+>>> |[31.Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [31.h](./LeetCode/31.h)| NanerLee |
+>>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan |
+>>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
+>>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
+>>>...
 >
->> `NowCoder`  //牛客网
+>> `NowCoder`  //牛客网，题号按提交顺序依次递增；
 >>> |题目 | 文件名 | 提交者 |
 >>> |:---:|:-------:|:-------:|
 >>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/main.cpp)|  |
->>> |[1.矩阵查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/1.h)  | Chirl、 |
->>> |[2.替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/2.h)  | Chirl、 |
->>> |[3.逆序打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[3.h](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/3.h)  | Chirl、 |
->>> |[4.重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[4.h](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/4.h)  | Chirl、 |
+>>> |[1.矩阵查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[1.h](./NowCoder/1.h)  | Chirl、 |
+>>> |[2.替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[2.h](./NowCoder/2.h)  | Chirl、 |
+>>> |[3.逆序打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[3.h](./NowCoder/3.h)  | Chirl、 |
+>>> |[4.重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[4.h](./NowCoder/4.h)  | Chirl、 |
 >
 >> ……
 
