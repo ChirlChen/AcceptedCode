@@ -2,7 +2,7 @@
 * **项目地址：** https://github.com/CheilQuan/AcceptedCode
 * **项目目录树：**（`修改对应源文件后，请同时更新目录树` | `添加题目解法后，请在对应的提交者栏加入自己的ID` | `更新请以题目序号保持递增`）
 > `AcceptedCode`
->> `LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
+>> `LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名；
 >>> | 题目 | 文件名 | 提交者 |
 >>> |:---|:-------|:-------|
 >>> | |[main.cpp](./LeetCode/main.cpp)|  |
@@ -11,12 +11,13 @@
 >>> |[30.Substring with Concatenation of All Words](https://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)|[30.h](./LeetCode/30.h)| NanerLee |
 >>> |[31.Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [31.h](./LeetCode/31.h)| NanerLee |
 >>> |[32.Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/?tab=Description)| [32.h](./LeetCode/32.h)| NanerLee |
+>>> |[32.Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/?tab=Description)| [32.h](./LeetCode/33.h)| NanerLee |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
 >>> ...
 >
->> `NowCoder`  //牛客网，题号按提交顺序依次递增
+>> `NowCoder`  //牛客网
 >>> `CodingInerviews` //剑指offer
 >>>> |题目 | 文件名 | 提交者 |
 >>>> |:---|:-------|:-------|
@@ -34,13 +35,12 @@
 >
 >>
 >>> `程序员面试金典`
->>>> |题目|文件名|提交者|
->>>> |:---|:---|:---|
->>>> |[1]()|[1.h]()| |
+>>>> | 题目 | 文件名 | 提交者 |
+>>>> |:---|:-------|:-------|
+>>>> | [1]() | [1.h]() |  |
 >>>> ...
-
 >
->> ……
+>> ...
 
 
 * **项目维护规则：**<br>
