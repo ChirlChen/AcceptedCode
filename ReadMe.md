@@ -13,6 +13,8 @@
 >>> |[32.Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/?tab=Description)| [32.h](./LeetCode/32.h)| NanerLee |
 >>> |[33.Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/?tab=Description)| [33.h](./LeetCode/33.h)| NanerLee |
 >>> |[34.Search for a Range](https://leetcode.com/problems/search-for-a-range/?tab=Description)| [34.h](./LeetCode/34.h)| NanerLee |
+>>> |[35.Search Insert Position](https://leetcode.com/problems/search-insert-position/?tab=Description)| [35.h](./LeetCode/35.h)| NanerLee |
+>>> |[36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/?tab=Description)| [36.h](./LeetCode/36.h)| NanerLee |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
