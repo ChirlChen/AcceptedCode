@@ -17,6 +17,7 @@
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
 >>> |[525.Contiguous Array](https://leetcode.com/problems/contiguous-array/?tab=Description)|[525.h](./LeetCode/525.h)| Sansan|
+>>>|[526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/?tab=Solutions)|[526.h](./LeetCode/526.h)| Sansan|
 >>>...
 >
 >> `NowCoder`  //牛客网
