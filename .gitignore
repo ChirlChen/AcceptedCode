@@ -217,6 +217,3 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 =======
-# ignore clang-format 文件
-.clang-format
-

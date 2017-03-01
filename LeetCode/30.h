@@ -11,8 +11,8 @@ namespace NanerLee
     class Solution_30
     {
     public:
-        Solution_30();
-        virtual ~Solution_30();
+        Solution_30(){}
+        virtual ~Solution_30(){}
         //假设s的长度为m,words的大小为n,时间复杂度为O(m*n)
         std::vector<int> FindSubstring(std::string s, std::vector<std::string>& words)
         {
@@ -45,23 +45,24 @@ namespace NanerLee
                 {
                     std::string temp_word = s.substr(j, word_length);
 
-                    // temp_word 是一个 word 时
+                    // temp_word 是一个 word 时;
                     if (word_count.find(temp_word) != word_count.end())
                     {
-                        ++temp_map[temp_word];  //出现次数加一
+                        ++temp_map[temp_word];  //出现次数加一;
 
-                        //如果出现次数过多,跳出
+                        //如果出现次数过多,跳出;
                         if (temp_map[temp_word] > word_count[temp_word])
                         {
                             break;
                         }
+                     
                     }
                     else
                     {
                         break;
                     }
                 }
-                //全部循环都执行成功时
+                //全部循环都执行成功时;
                 if (j == i + substr_length)
                 {
                     result.push_back(i);
@@ -73,7 +74,9 @@ namespace NanerLee
         static int test()
         {
             std::string s = "barfoothefoobarman";
-            std::vector<std::string> words = {"foo", "bar"};
+            std::vector<std::string> words;
+            words.push_back("foo");
+            words.push_back("bar");   
             Solution_30 su;
             std::vector<int> result = su.FindSubstring(s, words);
             for (auto& item : result)
@@ -85,4 +88,34 @@ namespace NanerLee
     };
 } /* NanerLee */
 
+namespace Chirl
+{
+    class Solution_30
+    {
+    public:
+
+        std::vector<int> FindSubstring(std::string s, std::vector<std::string>& words)
+        {
+            return std::vector<int>();
+
+        }
+                
+        
+        static void test()
+        {
+            std::string s = "barfoothefoobarman";
+            std::vector<std::string> words;
+            words.push_back("foo");
+            words.push_back("bar");
+            Solution_30 su;
+            std::vector<int> result = su.FindSubstring(s, words);
+            for (auto& item : result)
+            {
+                std::cout << item << '\n';
+            }
+
+        }
+    };
+  
+}
 #endif /* end of include guard: _30_H_ */
