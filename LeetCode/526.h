@@ -17,8 +17,7 @@ class Solution_526
             if (!visit[i] && (x % i == 0 || i % x == 0))
             {
                 visit[i] = 1;
-                cont += dfs(
-                    visit, n, x - 1);  //递归调用，visi[n]保存已经被放置数字的位置
+                cont += dfs(visit, n, x - 1);  //递归调用，visi[n]保存已经被放置数字的位置
                 visit[i] = 0;
             }
         return cont;
