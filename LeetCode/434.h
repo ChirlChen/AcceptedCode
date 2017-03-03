@@ -23,10 +23,44 @@ namespace Sansan
         }
         static void test()
         {
-            Solution_434 test;
+            Solution_434 su;
             string s="   dewewew  efret  rtgretgre  re ";
-            printf("%d\n",test.countSegments(s));
+            printf("%d\n",su.countSegments(s));
         }
     };
+}
+
+namespace Chirl
+{
+    class Solution_434
+    {
+    public:
+        int countSegments(string s)
+        {
+            int numSegments = 0;
+            s.push_back(' ');                   // 字符串尾追加一个空字符，方面后面判断;
+            const char *p = s.c_str();
+
+            while ('\0' != *p)
+            {
+                if (*p != ' ' && *(p+1) == ' ') // 以单词尾为判断独立单词的标准;
+                {
+                    numSegments++;
+                    p++;                        // 跳过已知空格;
+                }
+                p++;
+            }
+
+            return numSegments;
+        }
+  
+        static void test()
+        {
+            Solution_434 su;
+            string s="   dewewew,  efret  rtgretgre  re ";
+            cout << su.countSegments(s) << endl;  
+        }
+    };
+  
 }
 #endif

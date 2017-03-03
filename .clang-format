@@ -156,19 +156,16 @@ BreakBeforeBraces: Allman
 
 #-------------------penalty--------------
 
-# 最多能超出ColumnLimit多少个字符
-PenaltyExcessCharacter: 10
+PenaltyExcessCharacter: 1
 
-# 函数调用的第一个参数能够超出多少
-# PenaltyBreakBeforeFirstCallParameter (unsigned)
+# PenaltyBreakBeforeFirstCallParameter: 100
 
-# 注释能超出多少
-# PenaltyBreakComment (unsigned)
+# PenaltyBreakComment: 10000
 
-# 第一个 <<
-# PenaltyBreakFirstLessLess:
+# PenaltyBreakFirstLessLess: 120
 
-# PenaltyBreakString (unsigned)
+# PenaltyBreakString: 1000
+
 # PenaltyReturnTypeOnItsOwnLine (unsigned)
 
 #-------------------空格------------------
