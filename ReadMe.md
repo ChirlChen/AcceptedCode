@@ -16,6 +16,7 @@
 >>> |[34.Search for a Range](https://leetcode.com/problems/search-for-a-range/?tab=Description)| [34.h](./LeetCode/34.h)| NanerLee |
 >>> |[35.Search Insert Position](https://leetcode.com/problems/search-insert-position/?tab=Description)| [35.h](./LeetCode/35.h)| NanerLee |
 >>> |[36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/?tab=Description)| [36.h](./LeetCode/36.h)| NanerLee |
+>>> |[89. Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
 >>> |[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan、Chirl |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
@@ -54,7 +55,7 @@
 >>> `2017ProgrammingTest` //2017编程笔试
 >>>> |题目 | 文件名 | 提交者 |
 >>>> |:---|:-------|:-------|
->>>> |[1.求字符序列的逆序]() | [TencentInterview.h](./2017ProgrammingTest/TencentInterview.h) | Chirl |
+>>>> |[1.求字符序列的逆序](./NowCoder/2017ProgrammingTest/TencentInterview.h) | [TencentInterview.h](./NowCoder/2017ProgrammingTest/TencentInterview.h) | Chirl |
 >>>> ...
 >
 >>
