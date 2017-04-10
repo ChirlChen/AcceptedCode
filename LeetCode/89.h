@@ -34,7 +34,7 @@ namespace Chirl
     public:
         vector<int> grayCode(int n) 
         {
-            if (n < 0) 
+            if (n <= 0) 
             {
                 return vector<int>();
             }

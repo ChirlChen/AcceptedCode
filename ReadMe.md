@@ -16,14 +16,15 @@
 >>> |[34.Search for a Range](https://leetcode.com/problems/search-for-a-range/?tab=Description)| [34.h](./LeetCode/34.h)| NanerLee |
 >>> |[35.Search Insert Position](https://leetcode.com/problems/search-insert-position/?tab=Description)| [35.h](./LeetCode/35.h)| NanerLee |
 >>> |[36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/?tab=Description)| [36.h](./LeetCode/36.h)| NanerLee |
->>> |[89. Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
->>> |[279. Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
+>>> |[89.Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
+>>> |[268.Missing Number](https://leetcode.com/problems/missing-number/#/description)|[268.h](./LeetCode/268.h)| Chirl |
+>>> |[279.Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan、Chirl |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
 >>> |[494.Target Sum](https://leetcode.com/problems/target-sum/?tab=Description)|[494.h](./Leetcode/494.h)|Sansan|
 >>> |[523.Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/?tab=Description)|[523.h](./Leetcode/523.h)| Sansan |
->>> |[524. Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/?tab=Description)|[524.h](./LeetCode/524.h)| Chirl|
+>>> |[524.Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/?tab=Description)|[524.h](./LeetCode/524.h)| Chirl|
 >>> |[525.Contiguous Array](https://leetcode.com/problems/contiguous-array/?tab=Description)|[525.h](./LeetCode/525.h)| Sansan|
 >>> |[526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/?tab=Solutions)|[526.h](./LeetCode/526.h)| Sansan|
 >>>...
