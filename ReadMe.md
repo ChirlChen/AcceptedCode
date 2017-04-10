@@ -3,7 +3,7 @@
 * **项目目录树**：（修改对应源文件后，请同时更新目录树,添加题目解法后，请在对应的提交者栏加入自己的ID）
 > `AcceptedCode`
 >>`LeetCode`		//文件夹名以OJ平台的名字命名，文件夹中算法头文件以题目标号命名
->>> | | 文件名 | 提交者 |
+>>> | 题目名称 | 文件名 | 提交者 |
 >>> |---|:-------:|:-------:| 	
 >>>  |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |						
 >>>  |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)  | Chirl、 |	
