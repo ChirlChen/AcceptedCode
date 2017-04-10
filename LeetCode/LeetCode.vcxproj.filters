@@ -19,10 +19,51 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="1.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
     </ClCompile>
     <ClCompile Include="2.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="31.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="434.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="441.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="455.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="524.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="33.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="34.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="35.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="36.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="525.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="526.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

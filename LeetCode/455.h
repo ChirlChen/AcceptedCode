@@ -7,23 +7,23 @@
 using namespace std;
 namespace Sansan
 {
-	class Solution_1
+	class Solution_455
 	{
-	public:
-		int findContentChildren(vector<int>& g, vector<int>& s) 
+	  public:
+		int findContentChildren(vector<int>& g, vector<int>& s)
 		{
-			int childNum=0,contNum=0;
-			int child=g.size(),cookies=s.size();
-			if(!child || !cookies)
+			int childNum = 0, contNum = 0;
+			int child = g.size(), cookies = s.size();
+			if (!child || !cookies)
 				return 0;
-			sort(g.begin(),g.end());
-			sort(s.begin(),s.end());//使用其他方法排序效率将会提高到96%			
-			int i=0,j=0;
-			while(j<cookies)
+			sort(g.begin(), g.end());
+			sort(s.begin(), s.end());  //使用其他方法排序效率将会提高到96%
+			int i = 0, j = 0;
+			while (j < cookies)
 			{
-				for(;i<child && s[j]>=g[i];i++,contNum++)
+				for (; i < child && s[j] >= g[i]; i++, contNum++)
 					;
-				if(contNum)
+				if (contNum)
 				{
 					childNum++;
 					contNum--;
@@ -34,15 +34,15 @@ namespace Sansan
 		}
 		static void test()
 		{
-			Solution_1 test;
-			vector<int>g;
+			Solution_455 test;
+			vector<int> g;
 			g.push_back(1);
 			g.push_back(2);
 			g.push_back(3);
-			vector<int>s;
+			vector<int> s;
 			s.push_back(1);
 			s.push_back(1);
-			printf("%d\n",test.findContentChildren(g,s));
+			printf("%d\n", test.findContentChildren(g, s));
 		}
 	};
 }

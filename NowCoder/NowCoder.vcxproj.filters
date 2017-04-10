@@ -14,4 +14,47 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CodingInterviews\1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TencentInterview.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

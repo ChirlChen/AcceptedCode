@@ -1,73 +1,124 @@
 #ifndef _1_H_
 #define _1_H_
 
-#include <vector>
-#include <map>
 #include <algorithm>
+#include <map>
+#include <vector>
 using namespace std;
 
 namespace Chirl
 {
-    class Solution_1 {
-    public: 
-        vector<int> twoSum(vector<int>& nums, int target) 
+class Solution_1
+{
+  public:
+    vector<int> twoSum(vector<int> &nums, int target)
+    {
+        multimap<int, int> idxMap;  //ç”±äºè¿”å›ç»“æœéœ€è¦åŸæ•°ç»„çš„ä¸‹æ ‡ï¼Œæ•…å…ˆè®°å½•åŸæ•°ç»„ä¸‹æ ‡;
+        for (int idx = 0; idx < nums.size(); ++idx)
         {
-            multimap<int, int> idxMap;      //ÓÉÓÚ·µ»Ø½á¹ûĞèÒªÔ­Êı×éµÄÏÂ±ê£¬¹ÊÏÈ¼ÇÂ¼Ô­Êı×éÏÂ±ê;
-            for (int idx = 0; idx < nums.size(); ++idx) 
-            {
-                idxMap.insert(std::pair<int, int>(nums[idx], idx));
-            }
-            sort(nums.begin(), nums.end()); //¶ÔÊı×éÅÅĞò;
-
-            int     numCnt      = nums.size();
-            int     idxBeg      = 0;        
-            int     idxEnd      = numCnt - 1;
-            int     restNum     = target - nums[idxBeg];   
-            while (idxEnd > idxBeg) 
-            {
-                //Ã¿´Î´ÓÊı×éÍ·Ñ¡¶¨Ò»¸öÊıa£¬ÔÙµ½Êı×éÎ²²¿È¥±È½ÏÓĞÎŞºÏÊÊµÄb£¬Ê¹µÃa+b=target;
-                if (restNum < nums[idxEnd]) 
-                {
-                    idxEnd--; 
-                }            
-                else if (restNum > nums[idxEnd]) 
-                {
-                    restNum = target - nums[++idxBeg];
-                    idxEnd  = numCnt-1 < idxEnd ? numCnt-1 : idxEnd;
-                }
-                else 
-                {
-                    int tmp[2] = {0};
-                    multimap<int, int>::iterator itor;
-                    itor = idxMap.find(nums[idxBeg]);
-                    tmp[0] = itor->second;
-                    idxMap.erase(itor);
-                    itor = idxMap.find(nums[idxEnd]);
-                    tmp[1] = itor->second;
-                    return vector<int>(tmp, tmp+2);                  
-                }
-            }
-            return vector<int>();
+            idxMap.insert(std::pair<int, int>(nums[idx], idx));
         }
+        sort(nums.begin(), nums.end());  //å¯¹æ•°ç»„æ’åº;
 
-        static int test()
+        int numCnt = nums.size();
+        int idxBeg = 0;
+        int idxEnd = numCnt - 1;
+        int restNum = target - nums[idxBeg];
+        while (idxEnd > idxBeg)
         {
-            Solution_1 su;
-            int numArray[] = {230,863,916,585,981,404,316,785,88,12,70,435,384,778,887,755,740,337,86,92,325,422,815,650,920,125,277,336,221,847,168,23,677,61,400,136,874,363,394,199,863,997,794,587,124,321,212,957,764,173,314,422,927,783,930,282,306,506,44,926,691,568,68,730,933,737,531,180,414,751,28,546,60,371,493,370,527,387,43,541,13,457,328,227,652,365,430,803,59,858,538,427,583,368,375,173,809,896,370,789};
-
-
-            vector<int> nums(numArray, numArray + sizeof(numArray)/sizeof(int));
-
-            vector<int> result = su.twoSum(nums, 542);
-
-            return 0;
+            //æ¯æ¬¡ä»æ•°ç»„å¤´é€‰å®šä¸€ä¸ªæ•°aï¼Œå†åˆ°æ•°ç»„å°¾éƒ¨å»æ¯”è¾ƒæœ‰æ— åˆé€‚çš„bï¼Œä½¿å¾—a+b=target;
+            if (restNum < nums[idxEnd])
+            {
+                idxEnd--;
+            }
+            else if (restNum > nums[idxEnd])
+            {
+                restNum = target - nums[++idxBeg];
+                idxEnd = numCnt - 1 < idxEnd ? numCnt - 1 : idxEnd;
+            }
+            else
+            {
+                int tmp[2] = {0};
+                multimap<int, int>::iterator itor;
+                itor = idxMap.find(nums[idxBeg]);
+                tmp[0] = itor->second;
+                idxMap.erase(itor);
+                itor = idxMap.find(nums[idxEnd]);
+                tmp[1] = itor->second;
+                return vector<int>(tmp, tmp + 2);
+            }
         }
-    };
+        return vector<int>();
+    }
 
+    static int test()
+    {
+        Solution_1 su;
+        int numArray[] = {
+            230, 863, 916, 585, 981, 404, 316, 785, 88,  12,  70,  435, 384,
+            778, 887, 755, 740, 337, 86,  92,  325, 422, 815, 650, 920, 125,
+            277, 336, 221, 847, 168, 23,  677, 61,  400, 136, 874, 363, 394,
+            199, 863, 997, 794, 587, 124, 321, 212, 957, 764, 173, 314, 422,
+            927, 783, 930, 282, 306, 506, 44,  926, 691, 568, 68,  730, 933,
+            737, 531, 180, 414, 751, 28,  546, 60,  371, 493, 370, 527, 387,
+            43,  541, 13,  457, 328, 227, 652, 365, 430, 803, 59,  858, 538,
+            427, 583, 368, 375, 173, 809, 896, 370, 789};
 
-    
-}
+        vector<int> nums(numArray, numArray + sizeof(numArray) / sizeof(int));
 
+        vector<int> result = su.twoSum(nums, 542);
 
+        return 0;
+    }
+};
+}  // namespace Chirl
+
+namespace NanerLee
+{
+class Solution_1
+{
+  public:
+    Solution_1();
+    virtual ~Solution_1();
+    //æš´åŠ›æ³•ï¼Œæ—¶é—´å¤æ‚åº¦ä¸ºO(n^2)
+    std::vector<int> TwoSum(std::vector<int> &nums, int target)
+    {
+        std::vector<int> result;
+        for (int i = 0; i < nums.size(); ++i)
+        {
+            for (int j = i + 1; j < nums.size(); ++j)
+            {
+                if (nums[i] + nums[j] == target)
+                {
+                    result.push_back(i);
+                    result.push_back(j);
+                    return result;
+                }
+            }
+        }
+        return result;
+    }
+
+    static int test()
+    {
+        Solution_1 s1;
+        int numArray[] = {
+            230, 863, 916, 585, 981, 404, 316, 785, 88,  12,  70,  435, 384,
+            778, 887, 755, 740, 337, 86,  92,  325, 422, 815, 650, 920, 125,
+            277, 336, 221, 847, 168, 23,  677, 61,  400, 136, 874, 363, 394,
+            199, 863, 997, 794, 587, 124, 321, 212, 957, 764, 173, 314, 422,
+            927, 783, 930, 282, 306, 506, 44,  926, 691, 568, 68,  730, 933,
+            737, 531, 180, 414, 751, 28,  546, 60,  371, 493, 370, 527, 387,
+            43,  541, 13,  457, 328, 227, 652, 365, 430, 803, 59,  858, 538,
+            427, 583, 368, 375, 173, 809, 896, 370, 789};
+
+        vector<int> nums(numArray, numArray + sizeof(numArray) / sizeof(int));
+
+        vector<int> result = s1.TwoSum(nums, 542);
+
+        return 0;
+    }
+};
+} /* NanerLee */
 
 #endif
