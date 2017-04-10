@@ -6,9 +6,9 @@
 >>> | 题目名称 | 文件名 | 提交者 |
 >>> |---|:-------:|:-------:| 	
 >>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/main.cpp)|  |						
->>> | |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)  | Chirl、 |	
->>> | |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)  | Chirl、 |
->>> | |[455.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/455Sansan.h) | Sansan、 |
+>>> |[Two Sum](https://leetcode.com/problems/two-sum) |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)  | Chirl、 |	
+>>> |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)  | Chirl、 |
+>>> |[Assign Cookies](https://leetcode.com/problems/assign-cookies) |[455.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/455Sansan.h) | Sansan、 |
 >>>  ……
 >	
 >> `NowCoder`  //牛客网
