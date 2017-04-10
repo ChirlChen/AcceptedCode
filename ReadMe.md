@@ -9,7 +9,8 @@
 >>> |[Two Sum](https://leetcode.com/problems/two-sum) |[1.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/1.h)  | Chirl、 |	
 >>> |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers) |[2.h](https://github.com/CheilQuan/AcceptedCode/blob/master/LeetCode/2.h)  | Chirl、 |
 >>> |[Assign Cookies](https://leetcode.com/problems/assign-cookies) |[455.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/455Sansan.h) | Sansan、 |
->>>  ……
+>>> |[Next Greater Element III ](https://leetcode.com/problems/next-greater-element-iii)|[556.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/556.h)| Sansan、| 
+>>>……
 >	
 >> `NowCoder`  //牛客网
 >>> | 题目名称 | 文件名 | 提交者 |
