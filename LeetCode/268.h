@@ -26,14 +26,14 @@ namespace Chirl
 {
     /************************************************************************
      思      路：如果是以递增有序排列的情况下，可采用二分法，查找缺失数; 
-     算法复杂度：O(log(n))
+     算法复杂度：拍好序情况下：O(log(n));
      ************************************************************************/
     class Solution_268
     {
     public:
         int missingNumber(vector<int>& nums) 
         {
-            sort(nums.begin(), nums.end());
+            sort(nums.begin(), nums.end());   //算上快速排序，复杂度为O(n*log(n));
             if (nums[0] != 0)
             {
                 return 0;
