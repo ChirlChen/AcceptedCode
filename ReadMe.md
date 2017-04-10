@@ -1,4 +1,4 @@
-### 在线测评Accepted代码管理项目 ### 
+### 在线测评Accepted代码管理项目 ###
 * **项目地址：** https://github.com/CheilQuan/AcceptedCode
 * **项目说明：** 本项目用于`上传`大家在各种`在线编程平台`提交过的`代码`，方便大家交流代码与解题思路;
 * **项目目录树：**（`修改对应源文件后，请同时更新目录树` | `添加题目解法后，请在对应的提交者栏加入自己的ID` | `更新请以题目序号保持递增`）
@@ -16,6 +16,10 @@
 >>> |[34.Search for a Range](https://leetcode.com/problems/search-for-a-range/?tab=Description)| [34.h](./LeetCode/34.h)| NanerLee |
 >>> |[35.Search Insert Position](https://leetcode.com/problems/search-insert-position/?tab=Description)| [35.h](./LeetCode/35.h)| NanerLee |
 >>> |[36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/?tab=Description)| [36.h](./LeetCode/36.h)| NanerLee |
+>>> |[37.Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [37.h](./LeetCode/37.h)| NanerLee |
+>>> |[38.Count and Say](https://leetcode.com/problems/count-and-say)| [38.h](./LeetCode/38.h)| NanerLee |
+>>> |[39.Combination Sum](https://leetcode.com/problems/combination-sum)| [39.h](./LeetCode/39.h)| NanerLee |
+>>> |[40.Combination Sum II](https://leetcode.com/problems/combination-sum-ii)| [40.h](./LeetCode/40.h)| NanerLee |
 >>> |[89.Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
 >>> |[268.Missing Number](https://leetcode.com/problems/missing-number/#/description)|[268.h](./LeetCode/268.h)| Chirl |
 >>> |[279.Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |

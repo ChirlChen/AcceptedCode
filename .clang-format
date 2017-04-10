@@ -1,3 +1,10 @@
+# @Author: nanerlee
+# @Date:   2017-03-02T17:26:45+08:00
+# @Email:  nanerlee@qq.com
+# @Last modified by:   nanerlee
+# @Last modified time: 2017-04-10T20:00:03+08:00
+# @Copyright: Copyright (c) by NanerLee. All Rights Reserved.
+
 #基于5.0文档,最低版本要求3.8
 #-----------------------一般选项----------------
 # 基础样式(LLVM,Google,Chromium,Mozilla,WebKit)
@@ -59,16 +66,16 @@ NamespaceIndentation: None
 AlignAfterOpenBracket: Align
 
 # 对齐连续的赋值语句
-#AlignConsecutiveAssignments: true
+AlignConsecutiveAssignments: true
 
 # 对齐连续的声明语句
-#AlignConsecutiveDeclarations: true
+AlignConsecutiveDeclarations: true
 
 # 对齐换行符,true为尽可能向左,否则尽可能向右
 # AlignEscapedNewlinesLeft (bool)
 
 # 对齐运算表达式的操作数
-# AlignOperands: true
+AlignOperands: true
 
 # 行尾注释(//)对齐
 AlignTrailingComments: true
