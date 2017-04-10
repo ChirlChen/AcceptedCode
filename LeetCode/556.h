@@ -29,7 +29,7 @@ namespace Sansan
 		********************************************************/ 
 		int nextGreaterElement(int n) 
 		{
-             string str = to_string(n);
+                         string str = to_string(n);
 			 int curPos = str.length()-1,curMax=-1;
 			 for (int idx = curPos; idx >= 0 ; idx--)
 			 {
