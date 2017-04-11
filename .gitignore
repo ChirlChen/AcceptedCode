@@ -86,7 +86,9 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
-
+*.sln
+*.vcxproj
+*.vcxproj.filters
 # Visual Studio profiler
 *.psess
 *.vsp
@@ -184,9 +186,8 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
-
-<<<<<<< HEAD
-
+#vs main_function
+main.cpp
 #############
 ## Python
 #############
@@ -217,4 +218,3 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-=======
