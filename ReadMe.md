@@ -31,6 +31,7 @@
 >>> |[524.Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/?tab=Description)|[524.h](./LeetCode/524.h)| Chirl|
 >>> |[525.Contiguous Array](https://leetcode.com/problems/contiguous-array/?tab=Description)|[525.h](./LeetCode/525.h)| Sansan|
 >>> |[526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/?tab=Solutions)|[526.h](./LeetCode/526.h)| Sansan|
+>>> |[556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)|[556.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/556.h)| Sansan、|
 >>>...
 >
 >> `NowCoder`  //牛客网
