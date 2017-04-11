@@ -44,6 +44,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>__STDC_WANT_SECURE_LIB__=1;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -67,6 +68,21 @@
     <ClCompile Include="1.h" />
     <ClCompile Include="2.h" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="30.h" />
+    <ClInclude Include="31.h" />
+    <ClInclude Include="32.h" />
+    <ClInclude Include="33.h" />
+    <ClInclude Include="34.h" />
+    <ClInclude Include="35.h" />
+    <ClInclude Include="36.h" />
+    <ClInclude Include="434.h" />
+    <ClInclude Include="441.h" />
+    <ClInclude Include="455.h" />
+    <ClInclude Include="524.h" />
+    <ClInclude Include="525.h" />
+    <ClInclude Include="526.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

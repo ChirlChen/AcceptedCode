@@ -18,7 +18,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -64,6 +64,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="11.h" />
+    <ClInclude Include="CodingInterviews\1.h" />
+    <ClInclude Include="CodingInterviews\10.h" />
+    <ClInclude Include="CodingInterviews\2.h" />
+    <ClInclude Include="CodingInterviews\3.h" />
+    <ClInclude Include="CodingInterviews\4.h" />
+    <ClInclude Include="CodingInterviews\5.h" />
+    <ClInclude Include="CodingInterviews\6.h" />
+    <ClInclude Include="CodingInterviews\7.h" />
+    <ClInclude Include="CodingInterviews\8.h" />
+    <ClInclude Include="CodingInterviews\9.h" />
+    <ClInclude Include="TencentInterview.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
