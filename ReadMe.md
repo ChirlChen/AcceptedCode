@@ -23,6 +23,7 @@
 >>> |[89.Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
 >>> |[268.Missing Number](https://leetcode.com/problems/missing-number/#/description)|[268.h](./LeetCode/268.h)| Chirl |
 >>> |[279.Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
+>>> |[301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/#/description)|[301.h](./LeetCode/301.h)| Chirl |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan、Chirl |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
