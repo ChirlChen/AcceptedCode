@@ -65,5 +65,32 @@
     <ClInclude Include="526.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="37.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="38.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="39.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="40.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="89.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="268.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="279.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="494.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="523.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
