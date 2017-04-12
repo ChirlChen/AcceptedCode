@@ -1,5 +1,5 @@
 ### 在线测评Accepted代码管理项目 ###
-* **项目地址：** https://github.com/CheilQuan/AcceptedCode
+* **项目地址：** https://github.com/ChirlChen/AcceptedCode
 * **项目说明：** 本项目用于`上传`大家在各种`在线编程平台`提交过的`代码`，方便大家交流代码与解题思路;
 * **项目目录树：**（`修改对应源文件后，请同时更新目录树` | `添加题目解法后，请在对应的提交者栏加入自己的ID` | `更新请以题目序号保持递增`）
 > `AcceptedCode`
