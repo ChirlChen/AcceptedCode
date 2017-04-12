@@ -13,7 +13,7 @@
 >>> |[31.Next Permutation](https://oj.leetcode.com/problems/next-permutation/)| [31.h](./LeetCode/31.h)| NanerLee |
 >>> |[32.Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/?tab=Description)| [32.h](./LeetCode/32.h)| NanerLee |
 >>> |[33.Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/?tab=Description)| [33.h](./LeetCode/33.h)| NanerLee |
->>> |[34.Search for a Range](https://leetcode.com/problems/search-for-a-range/?tab=Description)| [34.h](./LeetCode/34.h)| NanerLee |
+>>> |[34.Search for a Range](https://leetcode.com/problems/search-for-a-range/?tab=Description)| [34.h](./LeetCode/34.h)| NanerLee、Chirl |
 >>> |[35.Search Insert Position](https://leetcode.com/problems/search-insert-position/?tab=Description)| [35.h](./LeetCode/35.h)| NanerLee |
 >>> |[36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku/?tab=Description)| [36.h](./LeetCode/36.h)| NanerLee |
 >>> |[37.Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)| [37.h](./LeetCode/37.h)| NanerLee |
