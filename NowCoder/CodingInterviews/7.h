@@ -61,6 +61,34 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_7
+    {
+    public:
+        int Fibonacci(int n) {
+            if(n < 0)
+                return -1;
+            int pre1 = 0, pre2 = 1,temp = 0;
+            while(n)
+            {
+                temp = pre1;
+                pre1 = pre2;
+                pre2 += temp;
+                n--;
+            }
+            return pre1;
+        }
+        static void test()
+        {
+            Solution_7 su;
+            su.Fibonacci(30);
+        }          
+    };
+
+
+
+}
 
 
 #endif //!_7_H_

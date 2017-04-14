@@ -20,20 +20,33 @@
 
 #pragma execution_character_set("utf-8")
 
-namespace Chirl
+namespace Wcytem
 {
     class Solution_11
     {
     public:
-  
+        int NumberOf1(int n) {
+            int NumOf1 = 0;
+            int temp = 1;
+            for (int i = 0; i < 8*sizeof(n); i++)
+            {
+                if(temp&n)
+                {
+                    NumOf1++;
+                }
+               n>>=1;
+            }
+            return NumOf1;
+        }
         //÷–Œƒ◊¢ Õ≤‚ ‘;
         static void test()
         {
             Solution_11 su;
-  
+            int a = su.NumberOf1(-2);
+
         }
     };
-  
+
 }
 
 

@@ -53,6 +53,71 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_6
+    {
+    public:
+        int minNumberInRotateArray(vector<int> rotateArray) {
+            int len = rotateArray.size();
+            if (len == 0)
+                return 0;
+            else
+            {
+                int first = 0;
+                int last = len-1;
+                int mid = len/2;
+                while(rotateArray[mid]!=rotateArray[last] || rotateArray[mid] != rotateArray[first])
+                {
+                    if(rotateArray[mid] <= rotateArray[last] )
+                    {
+                        last = mid;
+                        if ((last + first)%2 == 0)
+                        {
+                            mid = (last + first)/2;
+                        }
+                        else
+                            mid = (last + first)/2-1;
+                    }
+                    if(rotateArray[mid] >= rotateArray[first])
+                    {
+                        first = mid;
+                        if ((last + first)%2 == 0)
+                        {
+                            mid = (last + first)/2;
+                        }
+                        else
+                            mid = (last + first)/2+1;
+                    }
+                    if (last - first <=2)
+                    {
+                        int minVal = rotateArray[first];
+                        for (int i = first+1; i <= last; i++)
+                        {
+                            if (minVal > rotateArray[i])
+                            {
+                                minVal = rotateArray[i];
+                            }
+                        }
+                        return minVal;
+                    }
+                }
+                return rotateArray[mid];
+            }
+        }
+        static void test()
+        {
+            int tmp[] = {3,4,5,1,2};
+            vector<int> rotateArray(tmp, tmp+sizeof(tmp)/sizeof(int));
+
+            Solution_6 su;
+            su.minNumberInRotateArray(rotateArray);
+        }       
+    };
+
+
+
+}
 
 
 #endif //!_6_H_

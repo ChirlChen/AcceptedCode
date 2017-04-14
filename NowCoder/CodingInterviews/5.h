@@ -61,6 +61,49 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_5
+    {
+    public:
+        void push(int node) {
+            while(!stack2.empty())
+            {
+                stack1.push(stack2.top());
+                stack2.pop();
+            }
+            stack1.push(node);
+        }
+
+        int pop() {
+            while(!stack1.empty())
+            {
+                stack2.push(stack1.top());
+                stack1.pop();
+            }
+            int ret = stack2.top();
+            stack2.pop();
+            return ret;
+        }
+        static void test()
+        {
+            Solution_5 su;
+            su.push(20);
+            su.push(21);
+            su.push(22);
+            su.pop();
+            su.pop();
+            su.pop();
+            su.pop();
+
+        }
+
+    private:
+        stack<int> stack1;
+        stack<int> stack2;
+
+
+}
 
 
 #endif //!_5_H_

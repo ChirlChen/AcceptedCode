@@ -67,9 +67,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="11.h" />
     <ClInclude Include="CodingInterviews\1.h" />
     <ClInclude Include="CodingInterviews\10.h" />
+    <ClInclude Include="CodingInterviews\11.h" />
+    <ClInclude Include="CodingInterviews\12.h" />
+    <ClInclude Include="CodingInterviews\13.h" />
+    <ClInclude Include="CodingInterviews\14.h" />
+    <ClInclude Include="CodingInterviews\15.h" />
+    <ClInclude Include="CodingInterviews\16.h" />
     <ClInclude Include="CodingInterviews\2.h" />
     <ClInclude Include="CodingInterviews\3.h" />
     <ClInclude Include="CodingInterviews\4.h" />

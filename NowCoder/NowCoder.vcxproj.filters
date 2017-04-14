@@ -50,10 +50,25 @@
     <ClInclude Include="CodingInterviews\10.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="11.h">
+    <ClInclude Include="TencentInterview.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="TencentInterview.h">
+    <ClInclude Include="CodingInterviews\11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\13.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\14.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\16.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

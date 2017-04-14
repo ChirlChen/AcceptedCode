@@ -62,6 +62,37 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_10
+    {
+    public:
+        int rectCover(int number) {
+            if (number <= 0)
+                return 0;
+            else
+            {
+                int pre1 = 1, pre2 = 2, temp = 0;
+                while(--number)
+                {
+                    temp = pre1;
+                    pre1 = pre2;
+                    pre2 += temp;
+                }
+                return pre1;
+            }
+        }
+
+        static void test()
+        {
+            Solution_10 su;
+            su.rectCover(20);
+        }         
+    };
+
+
+
+}
 
 
 #endif //!_10_H_
