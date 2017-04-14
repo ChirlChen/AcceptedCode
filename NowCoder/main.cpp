@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv)
 {
-    Chirl::Solution_TencentInterview::test();
+    Wcytem::Solution_1::test();
 
     return 0;
 }
