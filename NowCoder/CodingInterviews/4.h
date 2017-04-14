@@ -99,5 +99,61 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_4
+    {
+    public:
+        TreeNode* reConstructBinaryTree(vector<int> pre,vector<int> vin) {
+            TreeNode *ret = new TreeNode(0);
+            if (pre.size() != 0)
+            {
+                ret->val = pre[0];
+                int i = 0;
+                for(; i < vin.size(); i++)
+                {
+                    if(pre[0] == vin[i])
+                        break;
+                }
+                vector<int> prenew1,prenew2,vinnew1,vinnew2;
+                for(int j = 1; j <= i; j++)
+                {
+                    prenew1.push_back(pre[j]);
+                }
+                for(int j = i+1; j < vin.size(); j++)
+                {
+                    prenew2.push_back(pre[j]);
+                    vinnew2.push_back(vin[j]);
+                }
+                for(int j = 0; j < i; j++)
+                {
+                    vinnew1.push_back(vin[j]);
+                }
+                ret->left = reConstructBinaryTree(prenew1,vinnew1);
+                ret->right = reConstructBinaryTree(prenew2,vinnew2);
+                return ret;
+            }
+            else
+                return NULL;
+
+        }
+
+
+        static void test()
+        {
+            int tmpPre[] = {1,2,4,7,3,5,6,8};
+            int tmpIn[] = {4,7,2,1,5,3,8,6};
+
+            vector<int> pre(tmpPre, tmpPre+sizeof(tmpPre)/sizeof(int));
+            vector<int> in(tmpIn, tmpIn+sizeof(tmpIn)/sizeof(int));
+
+            Solution_4 su;
+            TreeNode *head = su.reConstructBinaryTree(pre, in);
+        } 
+    };
+
+
+
+}
 
 #endif // !_4_H_
