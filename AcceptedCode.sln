@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeetCode", "LeetCode\LeetCode.vcxproj", "{D28406B4-D8AE-4474-893B-D68663497F46}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NowCoder", "NowCoder\NowCoder.vcxproj", "{F6682995-AEDE-46BC-B2D0-F47C95A81A3D}"
@@ -8,6 +8,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96775027-9EFF-416A-BFA9-BC1591333151}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.md = ReadMe.md
+		LeetCode\TestExample.txt = LeetCode\TestExample.txt
+		NowCoder\TestExample.txt = NowCoder\TestExample.txt
 	EndProjectSection
 EndProject
 Global

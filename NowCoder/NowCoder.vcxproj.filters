@@ -80,5 +80,20 @@
     <ClInclude Include="2017ProgrammingTest\TencentInterview.h">
       <Filter>头文件\2017ProgrammingTest</Filter>
     </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\BWCards.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\GracePoints.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\PalindromicSequence.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\BearHome.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\InterestingSort.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

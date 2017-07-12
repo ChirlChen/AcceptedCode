@@ -69,6 +69,11 @@
 >>>> |:---|:-------|:-------|
 >>>> |[1.求字符序列的逆序](./NowCoder/2017ProgrammingTest/TencentInterview.h) | [TencentInterview.h](./NowCoder/2017ProgrammingTest/TencentInterview.h) | Chirl |
 >>>> |[2.最高分是多少](https://www.nowcoder.com/practice/3897c2bcc87943ed98d8e0b9e18c4666?tpId=49&tqId=29275&tPage=1&rp=1&ru=/ta/2016test&qru=/ta/2016test/question-ranking) |[HighestScore.h](./NowCoder/2017ProgrammingTest/HighestScore.h)  | Chirl |
+>>>> |[3.黑白卡片](https://www.nowcoder.com/questionTerminal/bfb60fce32974c45a806e567e17183ba) |[BWCards.h](./NowCoder/2017ProgrammingTest/BWCards.h)  | Chirl |
+>>>> |[4.优雅的点](https://www.nowcoder.com/questionTerminal/0960cb46233b446687b77facc9148b89) |[GracePoints.h](./NowCoder/2017ProgrammingTest/GracePoints.h)  | Chirl |
+>>>> |[5.回文序列](https://www.nowcoder.com/questionTerminal/0147cbd790724bc9ae0b779aaf7c5b50) |[PalindromicSequence.h](./NowCoder/2017ProgrammingTest/PalindromicSequence.h)  | Chirl |
+>>>> |[5.度度熊回家](https://www.nowcoder.com/questionTerminal/b96a7519b60748d7a77f13570776c3ac) |[BearHome.h](./NowCoder/2017ProgrammingTest/BearHome.h)  | Chirl |
+>>>> |[6.有趣的排序](https://www.nowcoder.com/questionTerminal/adc291e7e79f452c8b59243a5ce68d3a) |[InterestingSort.h](./NowCoder/2017ProgrammingTest/InterestingSort.h)  | Chirl |
 >>>> ...
 >
 >>
