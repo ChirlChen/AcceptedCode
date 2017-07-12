@@ -61,6 +61,37 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_8
+    {
+    public:
+        int jumpFloor(int number) {
+            if(number == 0)
+                return 0;
+            else
+            {
+                int pre1 = 1,pre2 = 2,temp = 0;
+                while(--number)
+                {
+                    temp = pre1;
+                    pre1 = pre2;
+                    pre2+= temp;
+                }
+                return pre1;
+            }
+        }
+
+        static void test()
+        {
+            Solution_8 su;
+            su.jumpFloor(20);
+        }     
+    };
+
+
+
+}
 
 
 #endif //!_8_H_

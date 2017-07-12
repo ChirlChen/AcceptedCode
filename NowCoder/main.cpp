@@ -1,11 +1,21 @@
-#include ".\CodingInterviews\1.h"
-#include ".\CodingInterviews\4.h"
-#include ".\2017ProgrammingTest\TencentInterview.h"
+#include <iostream>
+#include <fstream>
 
+#include ".\CodingInterviews\16.h"
+#include ".\CodingInterviews\2.h"
+#include ".\2017ProgrammingTest\HighestScore.h"
 
 int main(int argc, char **argv)
 {
-    Chirl::Solution_TencentInterview::test();
+    //输入重定向;
+    streambuf *backup;
+    ifstream fin;
+    fin.open("TestExample.txt");
+    backup = cin.rdbuf();
+    cin.rdbuf(fin.rdbuf());
 
+    Chirl::Solution_HighestScore::test();
+
+    cin.rdbuf(backup);
     return 0;
 }

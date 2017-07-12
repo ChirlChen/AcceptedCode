@@ -21,6 +21,7 @@
 >>> |[39.Combination Sum](https://leetcode.com/problems/combination-sum)| [39.h](./LeetCode/39.h)| NanerLee |
 >>> |[40.Combination Sum II](https://leetcode.com/problems/combination-sum-ii)| [40.h](./LeetCode/40.h)| NanerLee |
 >>> |[89.Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
+>>> |[93.Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/#/description)|[93.h](./LeetCode/93.h)| Chirl |
 >>> |[268.Missing Number](https://leetcode.com/problems/missing-number/#/description)|[268.h](./LeetCode/268.h)| Chirl |
 >>> |[279.Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
 >>> |[301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/#/description)|[301.h](./LeetCode/301.h)| Chirl |
@@ -40,16 +41,22 @@
 >>>> |题目 | 文件名 | 提交者 |
 >>>> |:---|:-------|:-------|
 >>>> | |[main.cpp](https://github.com/CheilQuan/AcceptedCode/blob/master/NowCoder/main.cpp)|  |
->>>> |[1.矩阵查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[1.h](./NowCoder/CodingInterviews/1.h)  | Chirl、 |
->>>> |[2.替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[2.h](./NowCoder/CodingInterviews/2.h)  | Chirl、 |
->>>> |[3.逆序打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[3.h](./NowCoder/CodingInterviews/3.h)  | Chirl、 |
->>>> |[4.重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[4.h](./NowCoder/CodingInterviews/4.h)  | Chirl、 |
->>>> |[5.用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&tqId=11158&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[5.h](./NowCoder/CodingInterviews/5.h)  | Chirl、 |
->>>> |[6.旋转数组的最小数字](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?tpId=13&tqId=11159&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[6.h](./NowCoder/CodingInterviews/6.h)  | Chirl、 |
->>>> |[7.斐波那契数列](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3?tpId=13&tqId=11160&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[7.h](./NowCoder/CodingInterviews/7.h)  | Chirl、 |
->>>> |[8.跳台阶](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=13&tqId=11161&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[8.h](./NowCoder/CodingInterviews/8.h)  | Chirl、 |
->>>> |[9.变态跳台阶](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?tpId=13&tqId=11162&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[9.h](./NowCoder/CodingInterviews/9.h)  | Chirl、 |
->>>> |[10.矩形覆盖](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&tqId=11163&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[10.h](./NowCoder/CodingInterviews/10.h)  | Chirl、 |
+>>>> |[1.矩阵查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[1.h](./NowCoder/CodingInterviews/1.h)  | Chirl、Wcytem |
+>>>> |[2.替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[2.h](./NowCoder/CodingInterviews/2.h)  | Chirl、Wcytem |
+>>>> |[3.逆序打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[3.h](./NowCoder/CodingInterviews/3.h)  | Chirl、Wcytem |
+>>>> |[4.重建二叉树](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[4.h](./NowCoder/CodingInterviews/4.h)  | Chirl、Wcytem |
+>>>> |[5.用两个栈实现队列](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&tqId=11158&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[5.h](./NowCoder/CodingInterviews/5.h)  | Chirl、Wcytem |
+>>>> |[6.旋转数组的最小数字](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?tpId=13&tqId=11159&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[6.h](./NowCoder/CodingInterviews/6.h)  | Chirl、Wcytem |
+>>>> |[7.斐波那契数列](https://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3?tpId=13&tqId=11160&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[7.h](./NowCoder/CodingInterviews/7.h)  | Chirl、Wcytem |
+>>>> |[8.跳台阶](https://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?tpId=13&tqId=11161&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[8.h](./NowCoder/CodingInterviews/8.h)  | Chirl、Wcytem |
+>>>> |[9.变态跳台阶](https://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?tpId=13&tqId=11162&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[9.h](./NowCoder/CodingInterviews/9.h)  | Chirl、Wcytem |
+>>>> |[10.矩形覆盖](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&tqId=11163&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[10.h](./NowCoder/CodingInterviews/10.h)  | Chirl、Wcytem |
+>>>> |[11.二进制中1的个数](https://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?tpId=13&tqId=11164&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[11.h](./NowCoder/CodingInterviews/11.h)  | Wcytem、 |
+>>>> |[12.数值的整数次方](https://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00?tpId=13&tqId=11165&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[12.h](./NowCoder/CodingInterviews/12.h)  | Wcytem、 |
+>>>> |[13.调整数组顺序使奇数位于偶数前面](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&tqId=11166&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[13.h](./NowCoder/CodingInterviews/13.h)  | Wcytem、 |
+>>>> |[14. 链表中倒数第k个结点](https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?tpId=13&tqId=11167&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[14.h](./NowCoder/CodingInterviews/14.h)  | Wcytem、 |
+>>>> |[15.反转链表](https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?tpId=13&tqId=11168&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[15.h](./NowCoder/CodingInterviews/15.h)  | Wcytem、 |
+>>>> |[16.合并两个排序的链表](https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=13&tqId=11169&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[16.h](./NowCoder/CodingInterviews/16.h)  | Wcytem、 |
 >>> `程序员面试金典`
 >>>> | 题目 | 文件名 | 提交者 |
 >>>> |:---|:-------|:-------|
@@ -59,6 +66,7 @@
 >>>> |题目 | 文件名 | 提交者 |
 >>>> |:---|:-------|:-------|
 >>>> |[1.求字符序列的逆序](./NowCoder/2017ProgrammingTest/TencentInterview.h) | [TencentInterview.h](./NowCoder/2017ProgrammingTest/TencentInterview.h) | Chirl |
+>>>> |[2.最高分是多少](https://www.nowcoder.com/practice/3897c2bcc87943ed98d8e0b9e18c4666?tpId=49&tqId=29275&tPage=1&rp=1&ru=/ta/2016test&qru=/ta/2016test/question-ranking) |[HighestScore.h](./NowCoder/2017ProgrammingTest/HighestScore.h)  | Chirl |
 >>>> ...
 >
 >>

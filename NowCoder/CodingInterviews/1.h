@@ -55,4 +55,41 @@ namespace Chirl
         }
     };
 }
+
+namespace Wcytem
+{
+    class Solution_1
+    {
+    public:
+        bool Find(int target, vector<vector<int> > array) {
+            int row = array.size();
+            int col = array[0].size();
+            int i = row - 1;
+            int j = 0;
+            while(j < col && i >= 0)
+            {
+                if(target > array[i][j])
+                {j++;}
+                else if(target < array[i][j])
+                {i--;}
+                else
+                    return true;
+            }
+            return false;
+        } 
+
+
+    public:
+        static void test()
+        {
+         
+            Solution_1 su;
+
+        }          
+    };
+
+
+
+}
+
 #endif

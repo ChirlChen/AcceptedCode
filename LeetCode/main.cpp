@@ -1,13 +1,22 @@
-﻿#include "524.h"
-#include "301.h"
-#include <list>
-#include <typeinfo>
-#include <iostream>
+﻿#include <iostream>
+#include <fstream>
+
+#include "524.h"
+#include "93.h"
 
 //namespace list: Chirl | NanerLee | Sansan | Wcytem...
 int main(int argc, char **argv)
 {
-    std::cout << typeid(std::remove_const<const int[10]>::type).name(); 
-    Chirl::Solution_301::test();  
+    //输入重定向;
+    streambuf *backup;
+    ifstream fin;
+    fin.open("TestExample.txt");
+    backup = cin.rdbuf();
+    cin.rdbuf(fin.rdbuf());
+
+    Chirl::Solution_93::test();  
+
+    cin.rdbuf(backup);
     return 0;
 }
+

@@ -11,7 +11,7 @@ class Solution_34
   public:
     Solution_34(){};
     virtual ~Solution_34(){};
-
+    
     //  由于已经排好序了,利用二分法搜索出第一个和最后一个的目标值;
     std::vector<int> SearchRange(std::vector<int>& nums, int target)
     {

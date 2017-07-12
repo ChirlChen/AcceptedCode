@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\CodingInterviews">
+      <UniqueIdentifier>{d9860c32-330f-4d98-99dc-d5325ff90497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\2017ProgrammingTest">
+      <UniqueIdentifier>{2e8e7ce2-e49f-45c5-a34b-59a9f53afd92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,41 +26,59 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CodingInterviews\1.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\3.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\4.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\5.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\6.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\7.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CodingInterviews\8.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="CodingInterviews\9.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\CodingInterviews</Filter>
     </ClInclude>
     <ClInclude Include="CodingInterviews\10.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\CodingInterviews</Filter>
     </ClInclude>
-    <ClInclude Include="11.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="CodingInterviews\11.h">
+      <Filter>头文件\CodingInterviews</Filter>
     </ClInclude>
-    <ClInclude Include="TencentInterview.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="CodingInterviews\12.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\13.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\14.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\15.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\16.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\2.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\3.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\4.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\5.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\6.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\7.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\8.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\1.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\HighestScore.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\TencentInterview.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

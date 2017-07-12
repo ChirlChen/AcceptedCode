@@ -98,5 +98,47 @@ namespace Chirl
     };
 
 }
+namespace Wcytem
+{
+    class Solution_3
+    {
+    public:
+        vector<int> printListFromTailToHead(ListNode* head) {
+            vector<int> ret;
+            vector<int> out;
+            while(head != NULL)
+            {
+                ret.push_back(head->val);
+                head = head->next;
+            }
+            for(int i = ret.size()-1; i>=0; i--)
+            {
+                out.push_back(ret[i]);
+            }
+            return out;
+        }
+
+        static void test() 
+        {
+            ListNode *tmp = NULL;
+
+            ListNode *l2 = new ListNode(1);
+            tmp = l2;
+            tmp = insertNode(tmp, 2);
+            tmp = insertNode(tmp, 3);
+            tmp = insertNode(tmp, 4);
+            tmp = insertNode(tmp, 5);
+            tmp = insertNode(tmp, 6);
+            tmp = insertNode(tmp, 7);
+            tmp = insertNode(tmp, 8);
+
+            Solution_3 su;
+            vector<int> result = su.printListFromTailToHead(l2);
+        }       
+    };
+
+
+
+}
 
 #endif
