@@ -72,8 +72,10 @@
 >>>> |[3.黑白卡片](https://www.nowcoder.com/questionTerminal/bfb60fce32974c45a806e567e17183ba) |[BWCards.h](./NowCoder/2017ProgrammingTest/BWCards.h)  | Chirl |
 >>>> |[4.优雅的点](https://www.nowcoder.com/questionTerminal/0960cb46233b446687b77facc9148b89) |[GracePoints.h](./NowCoder/2017ProgrammingTest/GracePoints.h)  | Chirl |
 >>>> |[5.回文序列](https://www.nowcoder.com/questionTerminal/0147cbd790724bc9ae0b779aaf7c5b50) |[PalindromicSequence.h](./NowCoder/2017ProgrammingTest/PalindromicSequence.h)  | Chirl |
->>>> |[5.度度熊回家](https://www.nowcoder.com/questionTerminal/b96a7519b60748d7a77f13570776c3ac) |[BearHome.h](./NowCoder/2017ProgrammingTest/BearHome.h)  | Chirl |
->>>> |[6.有趣的排序](https://www.nowcoder.com/questionTerminal/adc291e7e79f452c8b59243a5ce68d3a) |[InterestingSort.h](./NowCoder/2017ProgrammingTest/InterestingSort.h)  | Chirl |
+>>>> |[6.度度熊回家](https://www.nowcoder.com/questionTerminal/b96a7519b60748d7a77f13570776c3ac) |[BearHome.h](./NowCoder/2017ProgrammingTest/BearHome.h)  | Chirl |
+>>>> |[7.有趣的排序](https://www.nowcoder.com/questionTerminal/adc291e7e79f452c8b59243a5ce68d3a) |[InterestingSort.h](./NowCoder/2017ProgrammingTest/InterestingSort.h)  | Chirl |
+>>>> |[8.数组分组](./NowCoder/2017ProgrammingTest/Package.h) |[Package.h](./NowCoder/2017ProgrammingTest/Package.h)  | Chirl |
+>>>> |[9.排列重组](./NowCoder/2017ProgrammingTest/Alibaba.h) |[Alibaba.h](./NowCoder/2017ProgrammingTest/Alibaba.h)  | Chirl |
 >>>> ...
 >
 >>

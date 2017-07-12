@@ -3,7 +3,8 @@
 
 #include ".\CodingInterviews\16.h"
 #include ".\CodingInterviews\2.h"
-#include ".\2017ProgrammingTest\HighestScore.h"
+#include ".\2017ProgrammingTest\Alibaba.h"
+#include ".\2017ProgrammingTest\Package.h"
 
 int main(int argc, char **argv)
 {
@@ -14,8 +15,9 @@ int main(int argc, char **argv)
     backup = cin.rdbuf();
     cin.rdbuf(fin.rdbuf());
 
-    Chirl::Solution_HighestScore::test();
+    Chirl::Solution_Alibaba::test();
 
     cin.rdbuf(backup);
     return 0;
 }
+
