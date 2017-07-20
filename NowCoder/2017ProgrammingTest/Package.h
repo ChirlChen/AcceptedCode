@@ -18,7 +18,7 @@
 #ifndef _PACKAGE_H_
 #define _PACKAGE_H_
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 namespace Chirl
 {
@@ -46,15 +46,15 @@ namespace Chirl
             {
                 return maxP;
             }
-            else if (P == 0 || len == 0)
+            else if (P == 1 || len == 0)
             {
-                return 0xFFFFFFF;
+                return max(accumulate(goods, goods+len, 0), maxP);
             }
             int curP = 0;
             for (int i=0; i <= len-1; ++i)
             {
                 curP += goods[i];
-                if (curP > aver || i == len - 1) 
+                if (curP > aver || i == len - 1 || len-i == P) 
                 {
                     return maximumPackage(&goods[i+1], P-1, len-i-1, max(curP, maxP), aver);                    
                 }
@@ -75,8 +75,8 @@ namespace Chirl
         static void test()
         {
             Solution_Package su;
-            int goods[6] = {150, 50, 30, 90, 10, 130};
-            su.maximumPackage(goods, 3, 6);
+            int goods[6] = {1, 1, 1, 2000, 1, 1};
+            int minPackage = su.maximumPackage(goods, 2, 6);
         }
   
     };
