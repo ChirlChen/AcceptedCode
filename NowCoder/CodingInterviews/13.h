@@ -17,7 +17,7 @@
 #define _13_H_
 #include <vector>
 #pragma execution_character_set("utf-8")
-
+using namespace std;
 namespace Wcytem
 {
     class Solution_13
@@ -48,7 +48,38 @@ namespace Wcytem
     };
 
 
+namespace Chirl
+{
+    class Solution_13
+    {
+    public:
+        void reOrderArray(vector<int> &array) {
+            int oddIdx = 0, evenIdx = 0;
 
+            for(int i = 0; i < array.size(); ++i){
+                if(array[i] & 0x1) {
+                    int tmp = array[i];
+                    for(int j = oddIdx; j > evenIdx; --j) {
+                        array[j] = array[j-1];
+                    }
+                    array[evenIdx] = tmp;
+                    evenIdx++; oddIdx++;
+                }
+                else
+                    oddIdx++;
+            }
+        }
+  
+        static void test()
+        {
+            Solution_13 su;
+            vector<int> arr;
+            arr.push_back(1);
+            su.reOrderArray(arr);
+        }        
+    };
+  
+}
 }
 
 

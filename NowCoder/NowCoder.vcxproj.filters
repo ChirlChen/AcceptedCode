@@ -95,5 +95,29 @@
     <ClInclude Include="2017ProgrammingTest\InterestingSort.h">
       <Filter>头文件\2017ProgrammingTest</Filter>
     </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\Package.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="2017ProgrammingTest\Alibaba.h">
+      <Filter>头文件\2017ProgrammingTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\17.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\18.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\19.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\20.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\21.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\22.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -47,5 +47,43 @@ namespace Wcytem
 
 }
 
+#include <math.h>
+namespace Chirl
+{
+    class Solution_12
+    {
+    public:
+        double Power(double base, int exponent) {
+            if (abs(base) < 0.000001){
+                return 0;
+            }
+            bool minus = exponent < 0 ? true : false;
+            double result = DoPower(base, abs(exponent));
+
+            return minus ? 1/result : result;
+        }
+        double DoPower(double base, int exp) {
+            if (exp <= 0){
+                return 1;
+            }
+            else if(exp == 1){
+                return base;
+            }
+
+            double res = DoPower(base, exp>>1);
+            res *= res;
+            if(exp & 0x1) res *= base;
+
+            return res;
+        }
+  
+        static void test()
+        {
+            Solution_12 su;
+            su.Power(2.0, 3);
+        }         
+    };
+  
+}
 
 #endif //!_12_H_

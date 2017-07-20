@@ -67,11 +67,13 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="2017ProgrammingTest\Alibaba.h" />
     <ClInclude Include="2017ProgrammingTest\BearHome.h" />
     <ClInclude Include="2017ProgrammingTest\BWCards.h" />
     <ClInclude Include="2017ProgrammingTest\GracePoints.h" />
     <ClInclude Include="2017ProgrammingTest\HighestScore.h" />
     <ClInclude Include="2017ProgrammingTest\InterestingSort.h" />
+    <ClInclude Include="2017ProgrammingTest\Package.h" />
     <ClInclude Include="2017ProgrammingTest\PalindromicSequence.h" />
     <ClInclude Include="2017ProgrammingTest\TencentInterview.h" />
     <ClInclude Include="CodingInterviews\1.h" />
@@ -82,7 +84,13 @@
     <ClInclude Include="CodingInterviews\14.h" />
     <ClInclude Include="CodingInterviews\15.h" />
     <ClInclude Include="CodingInterviews\16.h" />
+    <ClInclude Include="CodingInterviews\17.h" />
+    <ClInclude Include="CodingInterviews\18.h" />
+    <ClInclude Include="CodingInterviews\19.h" />
     <ClInclude Include="CodingInterviews\2.h" />
+    <ClInclude Include="CodingInterviews\20.h" />
+    <ClInclude Include="CodingInterviews\21.h" />
+    <ClInclude Include="CodingInterviews\22.h" />
     <ClInclude Include="CodingInterviews\3.h" />
     <ClInclude Include="CodingInterviews\4.h" />
     <ClInclude Include="CodingInterviews\5.h" />

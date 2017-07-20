@@ -18,8 +18,6 @@
 #ifndef _11_H_
 #define _11_H_
 
-#pragma execution_character_set("utf-8")
-
 namespace Wcytem
 {
     class Solution_11
@@ -49,5 +47,27 @@ namespace Wcytem
 
 }
 
+namespace Chirl
+{
+    class Solution_11
+    {
+    public:
+        int  NumberOf1(int n) {
+            int cnt = 0;
+            while(n){
+                cnt++;
+                n = n & (n-1);
+            }
+            return cnt;
+        }
+  
+        static void test()
+        {
+            Solution_11 su;
+            int a = su.NumberOf1(-2);
 
+        }
+    };
+  
+}
 #endif //!_11_H_

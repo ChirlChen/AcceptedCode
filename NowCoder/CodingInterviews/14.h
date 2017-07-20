@@ -66,5 +66,37 @@ namespace Wcytem
 
 }
 
+namespace Chirl
+{
+    class Solution_14
+    {
+    public:
+        ListNode* FindKthToTail(ListNode* pListHead, unsigned int k) {
+            if(NULL == pListHead) return NULL;
+
+            ListNode *fastPtr = pListHead;
+            ListNode *slowPtr = pListHead;
+
+            int i = 0;
+            for(; i < k && fastPtr != NULL; ++i, fastPtr = fastPtr->next);
+
+            if(fastPtr == NULL && i != k) return NULL;
+
+            for(; fastPtr != NULL; fastPtr = fastPtr->next){
+                slowPtr = slowPtr->next;
+            }
+
+            return slowPtr;
+        }
+  
+        static void test()
+        {
+            Solution_14 su;
+            ListNode *p = new ListNode(3);
+            su.FindKthToTail(p,1);
+        }       
+    };
+  
+}
 
 #endif //!_14_H_

@@ -17,6 +17,7 @@
 #define _15_H_
 #include <iostream>
 #include <stack>
+using namespace std;
 #pragma execution_character_set("utf-8")
 struct ListNode {
     int val;
@@ -68,5 +69,42 @@ namespace Wcytem
 
 }
 
+namespace Chirl
+{
+    class Solution_15
+    {
+    public:
+        ListNode* ReverseList(ListNode* pHead) {
+            if(pHead == NULL || pHead->next == NULL) return pHead;
+
+            ListNode *prev = NULL, *cur = pHead, *next = pHead->next;
+
+            while(next != NULL){
+                cur->next = prev;
+                prev = cur;
+                cur = next;
+                next = cur->next;
+            }
+
+            cur->next = prev;
+            return cur;
+        }
+  
+        static void test()
+        {
+            Solution_15 su;
+            int arr[5] = {5, 4, 3, 2, 1};
+            ListNode *pHead = new ListNode(arr[0]);
+            ListNode *curPtr = pHead;
+            for (int i = 1; i < 5; ++i)
+            {
+                curPtr->next = new struct ListNode(arr[i]);
+                curPtr = curPtr->next;
+            }
+            curPtr = su.ReverseList(pHead);
+        }        
+    };
+  
+}
 
 #endif //!_15_H_

@@ -69,5 +69,44 @@ namespace Wcytem
 
 }
 
+namespace Chirl
+{
+    class Solution_16
+    {
+    public:
+        ListNode* Merge(ListNode* pHead1, ListNode* pHead2)
+        {
+            if(pHead1 == NULL || pHead2 == NULL) 
+                return pHead1 ? pHead1 : pHead2;
 
+            ListNode *ptr1 = pHead1, *ptr2 = pHead2;
+            ListNode *newHead = new ListNode(0), *ptrNew = newHead;
+            while(ptr1 != NULL && ptr2 != NULL){
+                if(ptr1->val < ptr2->val){
+                    ptrNew->next = ptr1;
+                    ptr1 = ptr1->next;
+                }
+                else{
+                    ptrNew->next = ptr2;
+                    ptr2 = ptr2->next;
+                }
+                ptrNew = ptrNew->next;
+            }
+            ptrNew->next = ptr1 ? ptr1 : ptr2;
+
+            ptrNew = newHead;
+            newHead = ptrNew->next;
+            delete ptrNew;
+
+            return newHead;
+        }
+  
+        static void test()
+        {
+            Solution_16 su;
+            su.Merge(NULL,NULL);
+        }    
+    };
+  
+}
 #endif //!_14_H_
