@@ -18,7 +18,6 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-#pragma execution_character_set("utf-8")
 struct ListNode {
     int val;
     struct ListNode *next;

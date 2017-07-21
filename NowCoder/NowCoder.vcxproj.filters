@@ -119,5 +119,20 @@
     <ClInclude Include="CodingInterviews\22.h">
       <Filter>头文件\CodingInterviews</Filter>
     </ClInclude>
+    <ClInclude Include="CodingInterviews\23.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\25.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\24.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\26.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
+    <ClInclude Include="CodingInterviews\27.h">
+      <Filter>头文件\CodingInterviews</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

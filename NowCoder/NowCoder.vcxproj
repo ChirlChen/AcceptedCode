@@ -91,6 +91,11 @@
     <ClInclude Include="CodingInterviews\20.h" />
     <ClInclude Include="CodingInterviews\21.h" />
     <ClInclude Include="CodingInterviews\22.h" />
+    <ClInclude Include="CodingInterviews\23.h" />
+    <ClInclude Include="CodingInterviews\24.h" />
+    <ClInclude Include="CodingInterviews\25.h" />
+    <ClInclude Include="CodingInterviews\26.h" />
+    <ClInclude Include="CodingInterviews\27.h" />
     <ClInclude Include="CodingInterviews\3.h" />
     <ClInclude Include="CodingInterviews\4.h" />
     <ClInclude Include="CodingInterviews\5.h" />
