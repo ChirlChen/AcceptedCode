@@ -81,6 +81,45 @@ namespace Chirl
     };
   
 }
+namespace Wcytem
+{
+    class Solution_17
+    {
+    public:
+        bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
+        {
+            if(pRoot2 == NULL)
+                return false;
 
+        }
+        bool SameNodeSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
+        {
+            if (pRoot1 == NULL && pRoot2 == NULL)
+            {
+                return true;
+            }
+            if (pRoot1 == NULL || pRoot2 == NULL)
+            {
+                return false;
+            }
+            if (pRoot1->val == pRoot2->val)
+            {
+                return SameNodeSubtree(pRoot1->left,pRoot2->left)&&SameNodeSubtree(pRoot1->right,pRoot2->right);
+            } 
+            else
+            {
+                return false;
+            }
+        }
+        //中文注释测试;输入两棵二叉树A，B，判断B是不是A的子结构。（ps：我们约定空树不是任意一个树的子结构）
+        static void test()
+        {
+            Solution_17 su;
+            su.HasSubtree(NULL,NULL);
+
+        }
+    };
+
+}
 
 #endif //!_17_H_

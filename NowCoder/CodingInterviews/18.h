@@ -58,6 +58,22 @@ namespace Chirl
     };
   
 }
+namespace Wcytem
+{
+    class Solution_18 {
+    public:
+        void Mirror(TreeNode *pRoot) {
+            if(pRoot == NULL)
+                return;
+            TreeNode *rightNode = pRoot->right;
+            TreeNode *leftNode = pRoot->left;
+            pRoot->left = rightNode;
+            pRoot->right = leftNode;
+            Mirror(leftNode);
+            Mirror(rightNode);
+        }
+    };
+}
 
 
 #endif //!_18_H_
