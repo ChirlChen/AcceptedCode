@@ -65,6 +65,48 @@ namespace Chirl
     };
   
 }
+namespace Wcytem
+{
+    class Solution_19 {
+    public:
+        vector<int> printMatrix(vector<vector<int> > matrix) {
+            vector<int> res;
+            int i = matrix.size()-1;
+            int j = i;
+            while (1)
+            {
+                int index = 1;
+                int k = 0;
+                if(k > j-k)
+                    break;
+                for (int m = k; m <= j-k; m++)
+                {
+                    res.push_back(matrix[k][m]);
+                }
+                if(1+k > i-k)
+                    break;
+                for (int n = 1+k; n <= i-k; n++)
+                {
+                    res.push_back(matrix[n][j-k]);
+                }
+                if(j-k-1 < k)
+                    break;
+                for (int l = j-k-1; l >= k; l--)
+                {
+                    res.push_back(matrix[i-k][l]);
+                }
+                if(i-k-1 < 1+k)
+                    break;
+                for (int x = i-k-1; x >= 1+k; x--)
+                {
+                    res.push_back(matrix[x][k]);
+                }
+                k++;
+            }
+            return res;
+        }
+    };
+}
 
 
 #endif //!_19_H_
