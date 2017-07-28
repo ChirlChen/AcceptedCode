@@ -88,17 +88,17 @@ namespace Wcytem
     public:
         bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
         {
-            if(pRoot2 == NULL)
+            if(pRoot2 == nullptr)
                 return false;
 
         }
         bool SameNodeSubtree(TreeNode* pRoot1, TreeNode* pRoot2)
         {
-            if (pRoot1 == NULL && pRoot2 == NULL)
+            if (pRoot1 == nullptr && pRoot2 == nullptr)
             {
                 return true;
             }
-            if (pRoot1 == NULL || pRoot2 == NULL)
+            if (pRoot1 == nullptr || pRoot2 == nullptr)
             {
                 return false;
             }
@@ -115,7 +115,7 @@ namespace Wcytem
         static void test()
         {
             Solution_17 su;
-            su.HasSubtree(NULL,NULL);
+            su.HasSubtree(nullptr,nullptr);
 
         }
     };
