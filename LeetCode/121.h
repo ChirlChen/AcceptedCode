@@ -1,5 +1,5 @@
 ﻿/************************************************
-  FileName    : 198.h           ;
+  FileName    : 121.h           ;
   Description :                                 ;
   Creator     : Chirl                           ;
   Contact     : ChirlChen@163.com               ;
@@ -15,28 +15,27 @@
             _//|| _\  /                         ;
     ______(_/(_|(____/_________                 ;
 *************************************************/
-#ifndef _198_H_
-#define _198_H_
+#ifndef _121_H_
+#define _121_H_
 #include <vector>
-
 using namespace std;
 namespace Chirl
 {
     /************************************************************************
      思      路：动态规划;
-     算法复杂度：O(n)
+     算法复杂度：O(n);
      ************************************************************************/
-    class Solution_198
+    class Solution_121
     {
     public:
-        int rob(vector<int>& nums) {
-            if(nums.empty()) return 0;
-            if(nums.size() <= 1) return nums[0];
+        int maxProfit(vector<int>& prices) {
+            if(prices.empty()) return 0;
 
-            vector<int> DP(nums.size()+1, 0);
-            DP[1] = nums[0]; 
-            for(int i = 1; i < nums.size(); ++i){
-                DP[i+1] = max(DP[i-1] + nums[i], DP[i]);
+            int curMin = prices[0];
+            vector<int> DP(prices.size()+1, 0);
+            for(int i = 0; i < prices.size(); ++i){
+                curMin = min(curMin, prices[i]);
+                DP[i+1] = max(DP[i], prices[i] - curMin);
             }
 
             return *DP.rbegin();
@@ -44,13 +43,13 @@ namespace Chirl
   
         static void test()
         {
-            int tmp[] = {4,3,5,8,3,2};
-            Solution_198 su;
-            int ans = su.rob(vector<int>(begin(tmp), end(tmp)));
+            int tmp[] = {7, 1, 5, 3, 6, 4};
+            Solution_121 su;
+            int ans = su.maxProfit(vector<int>(begin(tmp), end(tmp)));
         }
     };
   
 }
 
 
-#endif //!_198_H_
+#endif //!_121_H_

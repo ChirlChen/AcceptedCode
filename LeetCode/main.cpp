@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <fstream>
 
-#include "303.h"
+#include "646.h"
 #include "93.h"
 
 //namespace list: Chirl | NanerLee | Sansan | Wcytem...
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
         "\n\t Please input your test example from the console!"<< endl;
 #endif
 
-    Chirl::Solution_303::test();  
+    Chirl::Solution_646::test();  
 
 #if REIOS
     if (fin.is_open())

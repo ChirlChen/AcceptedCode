@@ -1,5 +1,5 @@
 ﻿/************************************************
-  FileName    : 198.h           ;
+  FileName    : 70.h           ;
   Description :                                 ;
   Creator     : Chirl                           ;
   Contact     : ChirlChen@163.com               ;
@@ -15,42 +15,39 @@
             _//|| _\  /                         ;
     ______(_/(_|(____/_________                 ;
 *************************************************/
-#ifndef _198_H_
-#define _198_H_
-#include <vector>
+#ifndef _70_H_
+#define _70_H_
 
-using namespace std;
 namespace Chirl
 {
     /************************************************************************
-     思      路：动态规划;
-     算法复杂度：O(n)
+     思      路： 
+     算法复杂度：
      ************************************************************************/
-    class Solution_198
+    class Solution_70
     {
     public:
-        int rob(vector<int>& nums) {
-            if(nums.empty()) return 0;
-            if(nums.size() <= 1) return nums[0];
+        int climbStairs(int n) {
+            if(n <= 1) return 1;
 
-            vector<int> DP(nums.size()+1, 0);
-            DP[1] = nums[0]; 
-            for(int i = 1; i < nums.size(); ++i){
-                DP[i+1] = max(DP[i-1] + nums[i], DP[i]);
+            int nMinus1 = 1, nMinus2 = 1;
+            for(int i = 2; i <= n; ++i){
+                int tmp = nMinus1 + nMinus2;
+                nMinus2 = nMinus1;
+                nMinus1 = tmp;
             }
 
-            return *DP.rbegin();
+            return nMinus1;
         }
   
         static void test()
         {
-            int tmp[] = {4,3,5,8,3,2};
-            Solution_198 su;
-            int ans = su.rob(vector<int>(begin(tmp), end(tmp)));
+            Solution_70 su;
+            int ans = su.climbStairs(10);
         }
     };
   
 }
 
 
-#endif //!_198_H_
+#endif //!_70_H_

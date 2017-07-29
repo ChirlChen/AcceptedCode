@@ -21,8 +21,10 @@
 >>> |[39.Combination Sum](https://leetcode.com/problems/combination-sum)| [39.h](./LeetCode/39.h)| NanerLee |
 >>> |[40.Combination Sum II](https://leetcode.com/problems/combination-sum-ii)| [40.h](./LeetCode/40.h)| NanerLee |
 >>> |[53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/tabs/description)| [53.h](./LeetCode/53.h)| Chirl |
+>>> |[70.Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)| [70.h](./LeetCode/70.h)| Chirl |
 >>> |[89.Gray Code](https://leetcode.com/problems/gray-code/#/description)| [89.h](./LeetCode/89.h)| Chirl |
 >>> |[93.Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/#/description)|[93.h](./LeetCode/93.h)| Chirl |
+>>> |[121.Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[121.h](./LeetCode/121.h)| Chirl |
 >>> |[198.House Robber](https://leetcode.com/problems/house-robber/description/)|[198.h](./LeetCode/198.h)| Chirl |
 >>> |[268.Missing Number](https://leetcode.com/problems/missing-number/#/description)|[268.h](./LeetCode/268.h)| Chirl |
 >>> |[279.Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
@@ -37,6 +39,7 @@
 >>> |[525.Contiguous Array](https://leetcode.com/problems/contiguous-array/?tab=Description)|[525.h](./LeetCode/525.h)| Sansan|
 >>> |[526.Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/?tab=Solutions)|[526.h](./LeetCode/526.h)| Sansan|
 >>> |[556. Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/#/description)|[556.h](https://github.com/vincentwill/AcceptedCode/blob/master/LeetCode/556.h)| Sansan、|
+>>> |[646.Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/description/)|[646.h](./LeetCode/646.h)| Chirl |
 >>>...
 >
 >> `NowCoder`  //牛客网
