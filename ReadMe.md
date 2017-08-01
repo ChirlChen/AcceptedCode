@@ -30,6 +30,8 @@
 >>> |[279.Perfect Squares](https://leetcode.com/problems/perfect-squares/#/description)|[279.h](./LeetCode/279.h)| Chirl |
 >>> |[301. Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/#/description)|[301.h](./LeetCode/301.h)| Chirl |
 >>> |[303.Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/tabs/description)|[303.h](./LeetCode/303.h)| Chirl |
+>>> |[322.Coin Change](https://leetcode.com/problems/coin-change/description/)|[322.h](./LeetCode/322.h)| Chirl |
+>>> |[375.Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/)|[375.h](./LeetCode/375.h)| Chirl |
 >>> |[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/?tab=Description)|[434.h](./LeetCode/434.h)| Sansan、Chirl |
 >>> |[441.Arranging Coins](https://leetcode.com/problems/arranging-coins/?tab=Description) |[441.h](./LeetCode/441.h)   | Sansan |
 >>> |[455.Assign Cookies](https://leetcode.com/problems/assign-cookies/?tab=Description)|[455.h](./LeetCode/455.h)| Sansan|
@@ -81,7 +83,12 @@
 >>>> |[32.丑数](https://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b?tpId=13&tqId=11186&tPage=2&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[32.h](./NowCoder/CodingInterviews/32.h)  | Chirl |
 >>>> |[33.第一个只出现一次的字符](https://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c?tpId=13&tqId=11187&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[33.h](./NowCoder/CodingInterviews/33.h)  | Chirl |
 >>>> |[34.数组中的逆序对](https://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?tpId=13&tqId=11188&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[34.h](./NowCoder/CodingInterviews/34.h)  | Chirl |
->>>> |[40.数组中只出现一次的数字](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?tpId=13&tqId=11193&tPage=2&rp=2&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)|[40.h](./NowCoder/CodingInterviews/40.h)| Sansan、 |
+>>>> |[35.两个链表的第一个公共节点](https://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?tpId=13&tqId=11189&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[35.h](./NowCoder/CodingInterviews/35.h)  | Chirl |
+>>>> |[36.数字在排序数组中出现的次数](https://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2?tpId=13&tqId=11190&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[36.h](./NowCoder/CodingInterviews/36.h)  | Chirl |
+>>>> |[37.二叉树的深度](https://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?tpId=13&tqId=11191&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[37.h](./NowCoder/CodingInterviews/37.h)  | Chirl |
+>>>> |[38.平衡二叉树](https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?tpId=13&tqId=11192&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[38.h](./NowCoder/CodingInterviews/38.h)  | Chirl |
+>>>> |[39.数组中只出现一次的数字](https://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?tpId=13&tqId=11193&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[39.h](./NowCoder/CodingInterviews/39.h)  | Sansan、Chirl |
+>>>> |[40.和为S的连续正数序列](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[40.h](./NowCoder/CodingInterviews/40.h)  | Chirl |
 >>>> |[65.矩阵中的路径](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)|[65.h](./NowCoder/CodingInterviews/65.h)| Sansan、|
 >>> `程序员面试金典`
 >>>> | 题目 | 文件名 | 提交者 |
