@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 
-#include ".\CodingInterviews\34.h"
+#include ".\CodingInterviews\42.h"
 #include ".\CodingInterviews\2.h"
 #include ".\2017ProgrammingTest\Alibaba.h"
 #include ".\2017ProgrammingTest\Package.h"
@@ -25,7 +25,7 @@ int main(int argc, char **argv)
         "\n\t Please input your test example from the console!"<< endl;
 #endif
 
-    Chirl::Solution_34::test();
+    Chirl::Solution_42::test();
 
 #if REIOS
     if (fin.is_open())

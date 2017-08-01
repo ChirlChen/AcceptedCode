@@ -1,5 +1,5 @@
-/************************************************
-  FileName    : 40.h           ;
+﻿/************************************************
+  FileName    : 41.h           ;
   Description :                                 ;
   Creator     : Chirl                           ;
   Contact     : ChirlChen@163.com               ;
@@ -15,9 +15,8 @@
             _//|| _\  /                         ;
     ______(_/(_|(____/_________                 ;
 *************************************************/
-#ifndef _40_H_
-#define _40_H_
-
+#ifndef _41_H_
+#define _41_H_
 #include <vector>
 
 using namespace std;
@@ -28,43 +27,42 @@ namespace Chirl
      思      路： 
      算法复杂度：
      ************************************************************************/
-    class Solution_40
+    class Solution_41
     {
     public:
-        vector<vector<int> > FindContinuousSequence(int sum) {
-            vector<vector<int> > ans;
-            if(sum == 0) return ans;
+        vector<int> FindNumbersWithSum(vector<int> array,int sum) {
+            vector<int> ans;
+            if(array.size() <= 1) return ans;
 
-            int curSum = 0, first = 1, last = 1, end = (sum+1)/2 + 1;
-            while(last <= end){
-                if(curSum < sum){
-                    curSum += last++;
+            int first = 0, last = array.size()-1;
+            while(first < last){
+                int res = sum - array[last];
+                while(first < last && res > array[first]){
+                    first++;
                 }
-                else if(curSum > sum){
-                    curSum -= first++;
+
+                if(res == array[first]){
+                    ans.push_back(array[first]);
+                    ans.push_back(array[last]);
+                    break;
                 }
-                else if(curSum == sum && first - last > 1){
-                    vector<int> seq;
-                    seq.reserve(last - first + 1);
-                    for(int i = first; i < last; ++i){
-                        seq.push_back(i);
-                    }
-                    ans.push_back(seq);
-                    curSum += last++;
+                else{
+                    last--;
                 }
+
             }
-
             return ans;
         }
   
         static void test()
         {
-            Solution_40 su;
-            vector<vector<int> > ans = su.FindContinuousSequence(3);
+            int tmp[] = {1, 2, 3, 4, 5, 6, 10, 14, 15, 18};
+            Solution_41 su;
+            vector<int> ans = su.FindNumbersWithSum(vector<int>(begin(tmp), end(tmp)), 20);
         }
     };
   
 }
 
 
-#endif //!_40_H_
+#endif //!_41_H_
