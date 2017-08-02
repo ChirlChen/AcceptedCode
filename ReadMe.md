@@ -91,6 +91,9 @@
 >>>> |[40.和为S的连续正数序列](https://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?tpId=13&tqId=11194&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[40.h](./NowCoder/CodingInterviews/40.h)  | Chirl |
 >>>> |[41.和为S的两个数字](https://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?tpId=13&tqId=11195&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=3) |[41.h](./NowCoder/CodingInterviews/41.h)  | Chirl |
 >>>> |[42.左旋转字符串](https://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?tpId=13&tqId=11196&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[42.h](./NowCoder/CodingInterviews/42.h)  | Chirl |
+>>>> |[43.翻转单词顺序列](https://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?tpId=13&tqId=11197&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[43.h](./NowCoder/CodingInterviews/43.h)  | Chirl |
+>>>> |[44.扑克牌顺子](https://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?tpId=13&tqId=11198&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[44.h](./NowCoder/CodingInterviews/44.h)  | Chirl |
+>>>> |[45.孩子们的游戏（圆圈中最后剩下的数）](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[45.h](./NowCoder/CodingInterviews/45.h)  | Chirl |
 >>>> |[65.矩阵中的路径](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)|[65.h](./NowCoder/CodingInterviews/65.h)| Sansan、|
 >>> `程序员面试金典`
 >>>> | 题目 | 文件名 | 提交者 |
