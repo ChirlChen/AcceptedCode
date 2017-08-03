@@ -1,10 +1,9 @@
 #include <iostream>
 #include <fstream>
 
-#include ".\CodingInterviews\45.h"
+#include ".\CodingInterviews\46.h"
 #include ".\CodingInterviews\2.h"
-#include ".\2017ProgrammingTest\Alibaba.h"
-#include ".\2017ProgrammingTest\Package.h"
+#include ".\2017ProgrammingTest\BigNumMutil.h"
 
 int main(int argc, char **argv)
 {
@@ -25,7 +24,7 @@ int main(int argc, char **argv)
         "\n\t Please input your test example from the console!"<< endl;
 #endif
 
-    Chirl::Solution_45::test();
+    Chirl::Solution_46::test();
 
 #if REIOS
     if (fin.is_open())
