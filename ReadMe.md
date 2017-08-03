@@ -96,6 +96,9 @@
 >>>> |[45.孩子们的游戏（圆圈中最后剩下的数）](https://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?tpId=13&tqId=11199&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[45.h](./NowCoder/CodingInterviews/45.h)  | Chirl |
 >>>> |[46.求1+2+3....+n](https://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1?tpId=13&tqId=11200&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[46.h](./NowCoder/CodingInterviews/46.h)  | Chirl |
 >>>> |[47.不用加减乘除做加法](https://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?tpId=13&tqId=11201&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking) |[47.h](./NowCoder/CodingInterviews/47.h)  | Chirl |
+>>>> |[48.把字符串转换成整数](https://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?tpId=13&tqId=11202&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[48.h](./NowCoder/CodingInterviews/48.h)  | Chirl |
+>>>> |[49.数组中重复的数字](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) |[49.h](./NowCoder/CodingInterviews/49.h)  | Chirl |
+>>>> |[50.构建乘积数组](https://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46?tpId=13&tqId=11204&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking&tPage=3) |[50.h](./NowCoder/CodingInterviews/50.h)  | Chirl |
 >>>> |[65.矩阵中的路径](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)|[65.h](./NowCoder/CodingInterviews/65.h)| Sansan、|
 >>> `程序员面试金典`
 >>>> | 题目 | 文件名 | 提交者 |
