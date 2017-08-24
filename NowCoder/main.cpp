@@ -3,7 +3,7 @@
 
 #include ".\CodingInterviews\46.h"
 #include ".\CodingInterviews\2.h"
-#include ".\2017ProgrammingTest\BigNumMutil.h"
+#include ".\2017ProgrammingTest\WangYi_7.h"
 
 int main(int argc, char **argv)
 {
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
         "\n\t Please input your test example from the console!"<< endl;
 #endif
 
-    Chirl::Solution_46::test();
+    Chirl::Solution_WangYi_7::test();
 
 #if REIOS
     if (fin.is_open())
